@@ -89,18 +89,18 @@ int main(int argc, char *argv[])
   config.gamma = bb_gamma;
   config.V = bb_V;
 
-  Tconf_metrix conf_metrix_train;  
-  Tconf_metrix conf_metrix_test;  
+  Tconf_metrix conf_metrix_train_all;  
+  Tconf_metrix conf_metrix_test_all;  
 
-  //Twaktu_proses waktu_proses;
-  //waktu_proses.mulai();
+  Twaktu_proses waktu_proses;
+  waktu_proses.mulai();
 
   int jml = 0;
 
   for (const auto & file : directory_iterator(config.path_model + "/train"))
   {
        string str = file.path().filename();       
-       if(str=="train_model_36.csv")
+       if(str=="train_model_1.csv")
        {  
         
         Tdataframe df_train(&config);
@@ -190,21 +190,17 @@ int main(int argc, char *argv[])
         isi_conf_matrix(conf_metrix1,label_test,hasil_test_max);
         cetak_conf_matrix(conf_metrix1);
         
-
-        // isi_conf_matrix(conf_metrix_train,list_label,hasil);
-        // cetak_conf_matrix(conf_metrix);        
-         
-        //df_test.info();         
-        // isi_conf_matrix(conf_metrix_test,list_label,hasil);
-        // cetak_conf_matrix(conf_metrix1);      
+        isi_conf_matrix(conf_metrix_train_all,label_train,hasil_train_max);
+        isi_conf_matrix(conf_metrix_test_all,label_test,hasil_test_max);
+        
         
        }   
   }
-  // cetak_conf_matrix(conf_metrix_train);  
-  // cetak_conf_matrix(conf_metrix_test);
+  cetak_conf_matrix(conf_metrix_train_all);  
+  cetak_conf_matrix(conf_metrix_test_all);
 
-  //waktu_proses.selesai();
-  //waktu_proses.cetak();
+  waktu_proses.selesai();
+  waktu_proses.cetak();
 
   return 0;
 }

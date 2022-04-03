@@ -6,7 +6,7 @@ Tmy_kernel::Tmy_kernel(Tdataframe &df,double gamma){
    _gamma = gamma;
    _jml_data = _df->getjmlrow_svm();
 
-   _cache = new Tmy_cache(_jml_data,1000);
+   _cache = new Tmy_cache(_jml_data,5000);
    
    vector<future<Treturn_data>> async_worker;
    for (int i = 0; i < _jml_data; ++i)

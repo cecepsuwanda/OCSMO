@@ -246,9 +246,9 @@ vector<Tmy_double> Tmy_list_alpha::calculateNewAlpha(int i,int j,Tmy_double delt
   vector<Tmy_double> tmp = limit_alpha(alpha_a_new,0,Low,High,0);
   alpha_a_new = tmp[0];
   Tmy_double alpha_b_new = _alpha[j]+(_alpha[i]-alpha_a_new);
-  // tmp = limit_alpha(alpha_b_new,alpha_a_new,_lb,_ub,1);
-  // alpha_b_new = tmp[0];
-  // alpha_a_new = tmp[1];
+  tmp = limit_alpha(alpha_b_new,alpha_a_new,_lb,_ub,1);
+  alpha_b_new = tmp[0];
+  alpha_a_new = tmp[1];
   return {_alpha[i],_alpha[j],alpha_a_new,alpha_b_new};
 }
 
