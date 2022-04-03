@@ -6,7 +6,7 @@ Tmy_kernel::Tmy_kernel(Tdataframe &df,double gamma){
    _gamma = gamma;
    _jml_data = _df->getjmlrow_svm();
 
-   _cache = new Tmy_cache(_jml_data,5000);
+   _cache = new Tmy_cache(_jml_data,1000);
    
    vector<future<Treturn_data>> async_worker;
    for (int i = 0; i < _jml_data; ++i)
@@ -131,8 +131,8 @@ Treturn_data Tmy_kernel::thread_hit_data(int idx_map,int idx_vec,vector<string> 
 vector<Tmy_double> Tmy_kernel::get_Q(int i,int size)
 {   
    Treturn_is_in_head hasil = _cache->is_in_head(i,size);   
-   if(hasil.is_pass==false){
-     
+   
+   if(hasil.is_pass==false){     
      int idx_df = i;
      map<int,int>::iterator it;  
      it = _map_swap.find(idx_df);
@@ -189,7 +189,7 @@ vector<Tmy_double> Tmy_kernel::get_Q(int i,int size)
           async_worker.shrink_to_fit();  
      }
        
-   }   
+   }      
    vector<Tmy_double> data = _cache->get_head(i);
    return data;
 }

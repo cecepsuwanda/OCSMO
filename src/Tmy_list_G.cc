@@ -20,6 +20,8 @@ Tmy_list_G::Tmy_list_G(int jml_data,Tmy_kernel *kernel,Tmy_list_alpha *alpha)
 Tmy_list_G::~Tmy_list_G()
 {
    _arr_G.clear();
+   _arr_G_bar.clear();
+   _active_set.clear();
 }
 
 void Tmy_list_G::init()
@@ -291,8 +293,9 @@ bool Tmy_list_G::be_shrunk(int i, Tmy_double gmax1, Tmy_double gmax2)
 
 void Tmy_list_G::swap_index(int i,int j)
 {
-    _kernel->swap_index(i,j);
-    _alpha->swap_index(i,j);     
+    
+    _kernel->swap_index(i,j);    
+    _alpha->swap_index(i,j);    
     swap(_arr_G[i],_arr_G[j]);
     swap(_active_set[i],_active_set[j]);
     swap(_arr_G_bar[i],_arr_G_bar[j]); 
@@ -367,7 +370,7 @@ void Tmy_list_G::do_shrinking()
 void Tmy_list_G::reconstruct_gradient()
 {
   if(_active_size!=_jml_data){
-    cout<<"reconstruct gradient"<<endl;
+    cout<<"start reconstruct gradient"<<endl;
 
     int i,j;
     int nr_free = 0;
@@ -396,15 +399,15 @@ void Tmy_list_G::reconstruct_gradient()
     {
         for(i=0;i<_active_size;i++)
             if(_alpha->is_free(i))
-            {
-                vector<Tmy_double> Q_i = _kernel->get_Q(i,_jml_data);
+            {                
+                vector<Tmy_double> Q_i = _kernel->get_Q(i,_jml_data);                
                 Tmy_double alpha_i = _alpha->get_alpha(i);
                 for(j=_active_size;j<_jml_data;j++)
                     _arr_G[j] = _arr_G[j] + (alpha_i * Q_i[j]);
             }
     }
 
-
+    cout<<"end reconstruct gradient"<<endl;
   } 
 }
 

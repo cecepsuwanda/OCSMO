@@ -10,7 +10,12 @@ Tmy_cache::Tmy_cache(int jml_data,int size)
 
 Tmy_cache::~Tmy_cache()
 {
+   for (auto& elemen : _head)
+   {
+      elemen.second.clear();
+   }
 
+   _head.clear();
 }
 
 Treturn_is_in_head Tmy_cache::is_in_head(int idx,int size)
@@ -25,12 +30,16 @@ Treturn_is_in_head Tmy_cache::is_in_head(int idx,int size)
     if(_head[idx].size()<size)
     {
        hasil.awal = _head[idx].size();
+       for (int i = _head[idx].size(); i < size; ++i)
+       {
+          _head[idx].push_back(0.0);
+       }
     }else{
        hasil.is_pass = true;
     }
     
   }else{
-     if(_head.size()==_size){
+     if(_head.size()==_size){       
        _head.erase (_head.begin()); 
      }
     _head[idx].reserve(size);
@@ -45,14 +54,16 @@ vector<Tmy_double> Tmy_cache::get_head(int idx)
 }
 
 void Tmy_cache::isi_head(int idx_map,int idx_vec,Tmy_double val)
-{
-   _head[idx_map][idx_vec]=val;
+{   
+   _head[idx_map][idx_vec]=val;   
+      
 }
 
 void Tmy_cache::swap_index(int i,int j)
 {
+   
    if(i!=j)
-   {
+   {      
       map<int,vector<Tmy_double>>::iterator it_i;  
       it_i = _head.find(i);
       bool idx_i_ada = (it_i != _head.end());
@@ -93,11 +104,9 @@ void Tmy_cache::swap_index(int i,int j)
             {
                swap(_head[idx][i],_head[idx][j]);
             }else{
-               _head.erase (it);
+               _head.erase(it);
             }
          }
-      }
-
-
+      }      
    }
 }

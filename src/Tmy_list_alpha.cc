@@ -23,7 +23,7 @@ Tmy_list_alpha::~Tmy_list_alpha(){
   _alpha_status.clear();
   _alpha_not_ub.clear();
   _alpha_not_lb.clear();
-  _alpha_free.clear();
+  _alpha_free.clear();    
   _alpha_sv.clear();  
 }
 
@@ -101,9 +101,7 @@ void Tmy_list_alpha::update_alpha(int idx,Tmy_double value)
 
   update_alpha_sv(idx);
   update_alpha_status(idx);
-  update_lb_ub(idx);  
-	
-
+  update_lb_ub(idx);
 }
 
 void Tmy_list_alpha::update_alpha_status(int idx)
