@@ -26,6 +26,7 @@ private:
 public:
 	Tmy_cache(int jml_data,int size);
 	~Tmy_cache();
+	void clear_container();
 
 	Treturn_is_in_head is_in_head(int idx,int size);
 	vector<Tmy_double> get_head(int idx);

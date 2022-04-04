@@ -10,12 +10,17 @@ Tmy_cache::Tmy_cache(int jml_data,int size)
 
 Tmy_cache::~Tmy_cache()
 {
-   for (auto& elemen : _head)
+   clear_container();
+}
+
+void Tmy_cache::clear_container()
+{
+  for (auto& elemen : _head)
    {
       elemen.second.clear();
    }
 
-   _head.clear();
+   _head.clear(); 
 }
 
 Treturn_is_in_head Tmy_cache::is_in_head(int idx,int size)

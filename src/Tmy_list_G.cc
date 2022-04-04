@@ -226,10 +226,10 @@ int Tmy_list_G::cari_idx_lain(int idx_b,Tmy_double rho)
      if(idx<_active_size){
        Tmy_double Fb = _arr_G[idx_b];
        Tmy_double Fa = _arr_G[idx];
-       // Tmy_double gmax = -1.0*Fb;
-       // Tmy_double gmin = Fa;
-       // Tmy_double diff = gmax+gmin;
-       // if(diff>0.0){
+       Tmy_double gmax = -1.0*Fb;
+       Tmy_double gmin = Fa;
+       Tmy_double diff = gmax+gmin;
+       if(diff>1e-3){
            vector<Tmy_double> hsl_eta = _kernel->hit_eta(idx_b,idx,_active_size);
          
            Tmy_double delta = (Fa-Fb)*hsl_eta[0];
@@ -241,7 +241,7 @@ int Tmy_list_G::cari_idx_lain(int idx_b,Tmy_double rho)
               idx_a = idx;
               break;
            }
-       //}    
+       }    
     }
    }
 
@@ -252,10 +252,10 @@ int Tmy_list_G::cari_idx_lain(int idx_b,Tmy_double rho)
         if(idx<_active_size){
           Tmy_double Fb = _arr_G[idx_b];
           Tmy_double Fa = _arr_G[idx];
-          // Tmy_double gmax = -1.0*Fb;
-          // Tmy_double gmin = Fa;
-          // Tmy_double diff = gmax+gmin;
-          // if(diff>0.0){
+          Tmy_double gmax = -1.0*Fb;
+          Tmy_double gmin = Fa;
+          Tmy_double diff = gmax+gmin;
+          if(diff>1e-3){
               vector<Tmy_double> hsl_eta = _kernel->hit_eta(idx_b,idx,_active_size);
          
               Tmy_double delta = (Fa-Fb)*hsl_eta[0];
@@ -267,7 +267,7 @@ int Tmy_list_G::cari_idx_lain(int idx_b,Tmy_double rho)
                  idx_a = idx;
                  break;
               }
-          //}    
+          }    
         }
      }
    }

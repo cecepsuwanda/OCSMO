@@ -43,7 +43,13 @@ Tmy_kernel::Tmy_kernel(Tdataframe &df,double gamma){
 }
 
 Tmy_kernel::~Tmy_kernel(){
+   clear_container();
+}
 
+void Tmy_kernel::clear_container()
+{
+   _x_square.clear();
+   _map_swap.clear();
 }
 
 Tmy_double Tmy_kernel::dot(vector<string> x,vector<string> y){

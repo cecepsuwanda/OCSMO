@@ -20,7 +20,7 @@ Treturn_cari_alpha Tmy_svm::cari_idx_alpha()
    Treturn_cari_idx tmp_cari_idx = _my_list_G->cari_idx(_rho);
    
    Tmy_double diff = tmp_cari_idx.gmax+tmp_cari_idx.gmin;
-   //cout<<tmp_cari_idx.gmax<<"+"<<tmp_cari_idx.gmin<<"="<<diff<<endl;
+   cout<<tmp_cari_idx.gmax<<"+"<<tmp_cari_idx.gmin<<"="<<diff<<endl;
    bool stat = true;
    if((diff<1e-3) or ((tmp_cari_idx.idx_b==-1) or (tmp_cari_idx.idx_a==-1)))
    {  //(diff<1e-3) or
@@ -127,9 +127,9 @@ Treturn_train Tmy_svm::train(Tdataframe &df){
 
       if(hasil_cari.idx_a!=-1.0)
       {
-         //cout<<"iterasi ke - "<<iter<<" rho sebelum "<<_rho<<" idx_b "<<hasil_cari.idx_b<<" idx_a "<<hasil_cari.idx_a;                  
+         cout<<"iterasi ke - "<<iter<<" rho sebelum "<<_rho<<" idx_b "<<hasil_cari.idx_b<<" idx_a "<<hasil_cari.idx_a;                  
          is_alpha_changed = take_step(hasil_cari.idx_b,hasil_cari.idx_a);
-         //cout<<" rho sesudah "<<_rho<<endl;
+         cout<<" rho sesudah "<<_rho<<endl;
          
          if(is_alpha_changed==false)
          {
@@ -138,9 +138,9 @@ Treturn_train Tmy_svm::train(Tdataframe &df){
              bool pass = cari_idx_a_lain(hasil_cari.idx_b,&idx_a);
              if(pass==true)
              {
-                //cout<<"iterasi ke - "<<iter<<" rho sebelum "<<_rho<<" idx_b "<<hasil_cari.idx_b<<" idx_a "<<idx_a;   
+                cout<<"iterasi ke - "<<iter<<" rho sebelum "<<_rho<<" idx_b "<<hasil_cari.idx_b<<" idx_a "<<idx_a;   
                 is_alpha_changed = take_step(hasil_cari.idx_b,idx_a);
-                //cout<<" rho sesudah "<<_rho<<endl;               
+                cout<<" rho sesudah "<<_rho<<endl;               
                 if(is_alpha_changed==false)
                 {
                    counter=1;

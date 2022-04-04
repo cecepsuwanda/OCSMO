@@ -38,7 +38,10 @@ private:
 public:
 	Tmy_list_G(int jml_data,Tmy_kernel *kernel,Tmy_list_alpha *alpha);
 	~Tmy_list_G();
-	void init();
+	
+   
+
+   void init();
 	void update_G(int idx_b,int idx_a,Tmy_double new_alpha_b,Tmy_double new_alpha_a);
 	Tmy_double get_G(int idx);
 	Treturn_cari_idx cari_idx(Tmy_double rho);

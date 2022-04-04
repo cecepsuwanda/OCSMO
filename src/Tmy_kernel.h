@@ -38,6 +38,8 @@ public:
 	Tmy_kernel(Tdataframe &df,double gamma);
 	~Tmy_kernel();
 
+	void clear_container();
+
 	vector<Tmy_double> get_Q(int i,int size);
 	vector<Tmy_double> hit_eta(int i,int j,int size);  
 	Tmy_double kernel_function_f(vector<string> x,vector<string> y);
