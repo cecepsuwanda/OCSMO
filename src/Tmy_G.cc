@@ -9,7 +9,13 @@ Tmy_G::Tmy_G(int jml_data,Tmy_kernel *kernel,Tmy_alpha *alphas){
 }
 
 Tmy_G::~Tmy_G(){
+   clear_container();
    delete _my_list_G;
+}
+
+void Tmy_G::clear_container()
+{
+  _my_list_G->clear_container();
 }
 
 void Tmy_G::init()

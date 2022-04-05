@@ -19,9 +19,14 @@ Tmy_list_G::Tmy_list_G(int jml_data,Tmy_kernel *kernel,Tmy_list_alpha *alpha)
 
 Tmy_list_G::~Tmy_list_G()
 {
+   clear_container();
+}
+
+void Tmy_list_G::clear_container()
+{
    _arr_G.clear();
    _arr_G_bar.clear();
-   _active_set.clear();
+   _active_set.clear();  
 }
 
 void Tmy_list_G::init()

@@ -18,6 +18,8 @@ public:
 	Tmy_alpha(Tconfig *v_config);
 	~Tmy_alpha();
 
+	void clear_container();
+
     void init(int jml_data);
     void update_alpha(int idx1,Tmy_double value1,int idx2,Tmy_double value2);
 

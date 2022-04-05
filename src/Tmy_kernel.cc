@@ -6,7 +6,7 @@ Tmy_kernel::Tmy_kernel(Tdataframe &df,double gamma){
    _gamma = gamma;
    _jml_data = _df->getjmlrow_svm();
 
-   _cache = new Tmy_cache(_jml_data,1000);
+   _cache = new Tmy_cache(_jml_data,100);
    
    vector<future<Treturn_data>> async_worker;
    for (int i = 0; i < _jml_data; ++i)
@@ -50,6 +50,8 @@ void Tmy_kernel::clear_container()
 {
    _x_square.clear();
    _map_swap.clear();
+
+   _cache->clear_container();
 }
 
 Tmy_double Tmy_kernel::dot(vector<string> x,vector<string> y){

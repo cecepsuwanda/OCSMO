@@ -20,6 +20,9 @@ private:
 public:
 	Tmy_G(int jml_data,Tmy_kernel *kernel,Tmy_alpha *alphas);
 	~Tmy_G();
+
+    void clear_container();
+
 	void init();
 	Tmy_double update_rho(int idx_a,int idx_b);
 	Tmy_list_G* get_list_G();

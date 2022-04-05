@@ -5,8 +5,14 @@ Tmy_alpha::Tmy_alpha(Tconfig *v_config){
    _config = v_config;   
 }
 
-Tmy_alpha::~Tmy_alpha(){
+Tmy_alpha::~Tmy_alpha(){   
+   clear_container();
    delete _my_list_alpha;
+}
+
+void Tmy_alpha::clear_container()
+{
+	_my_list_alpha->clear_container();
 }
 
 

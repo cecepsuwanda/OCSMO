@@ -170,6 +170,10 @@ Treturn_train Tmy_svm::train(Tdataframe &df){
    _rho = _my_G->update_rho(0,0);
    list_G->reverse_swap();
 
+   _my_kernel->clear_container();
+   _my_alpha->clear_container();
+   _my_G->clear_container();
+
    Tmy_list_alpha *list_alpha = _my_alpha->get_alpha();
    map<int,Tmy_double> alpha_sv = list_alpha->get_list_alpha_sv();
    Treturn_alpha_stat alpha_stat = list_alpha->get_stat();
@@ -197,6 +201,7 @@ Treturn_train Tmy_svm::train(Tdataframe &df){
       _model.push_back(data);
    }   
    tmp_train.n_kkt = n_kkt;
+   
    return tmp_train;
 }
 
