@@ -214,51 +214,12 @@ bool Tmy_G::cari_idx(int &idx_b, int &idx_a, Tmy_double rho, T_alpha_container a
 
   auto cek_filter1 = [](callback_param var_b, callback_param var_a, T_alpha_container alpha, T_grad_container grad, Tmy_kernel *kernel) -> bool
   {
-    // auto delta_filter = [](Tmy_double alpha_b, Tmy_double alpha_a, Tmy_double delta) -> bool
-    // {
-    //   bool is_pass = true;
-
-    //   if (alpha_b == 0.0)
-    //   {
-    //     is_pass = (delta > 0.0) and (delta <= alpha_a);
-    //   }
-    //   else
-    //   {
-    //     if (alpha_b > 0.0)
-    //     {
-    //       if (delta > 0.0)
-    //       {
-    //         is_pass = (delta <= alpha_a);
-    //       }
-    //       else
-    //       {
-    //         if (delta < 0.0)
-    //         {
-    //           is_pass = (abs(delta) <= alpha_b);
-    //         }
-    //       }
-    //     }
-    //   }
-
-    //   return is_pass;
-    // };
-
     bool is_pass = true;
     // is_pass = alpha.is_sv(var_a.idx);
     if (alpha.is_nol(var_b.idx))
     {
       is_pass = !(alpha.is_nol(var_a.idx));
     }
-
-    // if (is_pass)
-    // {
-    //   Tmy_double Fa = var_a.dec;
-    //   Tmy_double Fb = var_b.dec;
-    //   vector<Tmy_double> hsl_eta = kernel->hit_eta(var_b.idx, var_a.idx);
-    //   Tmy_double delta = hsl_eta[0] * (Fa - Fb);
-    //   is_pass = delta_filter(alpha[var_b.idx], alpha[var_a.idx], delta);
-    // }
-
     return is_pass;
   };
 
