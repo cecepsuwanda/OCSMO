@@ -2,11 +2,11 @@
 #include <iterator>
 #include <map>
 #include "Tdataframe.h"
+#include "T_alpha_container.h"
+#include "T_grad_container.h"
 #include "Tmy_alpha.h"
 #include "Tmy_kernel.h"
 #include "Tmy_G.h"
-#include "Tmy_list_G.h"
-#include "Tmy_list_alpha.h"
 #include "Tmy_double.h"
 
 using namespace std;
@@ -39,11 +39,17 @@ class Tmy_svm
 
 private:
     Tconfig *_config;
+
+    T_alpha_container _alpha;
+    T_grad_container _grad;
+    
     Tmy_alpha *_my_alpha;
     Tmy_kernel *_my_kernel;
-    Tmy_G *_my_G;
+    Tmy_G _my_G;
+    
     Tmy_double _rho;
-    vector<vector<string>> _model;
+    map<int, vector<string>> _model;
+    vector<Tmy_double> _alpha_sv;
 public:
 	Tmy_svm(Tconfig *v_config);
 	~Tmy_svm();

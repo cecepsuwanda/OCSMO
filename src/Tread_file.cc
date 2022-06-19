@@ -1,15 +1,13 @@
 #include "Tread_file.h"
 
-
 Tread_file::Tread_file()
 {
-
 }
 
 Tread_file::~Tread_file()
 {
   clear_data();
-  //close_file();
+  // close_file();
   clear_index();
   clear_memory();
 }
@@ -29,19 +27,21 @@ void Tread_file::set_shared_memory_off()
   _shared_memory = false;
 }
 
-void Tread_file::setnm_f(string nm_f, const char* separator)
+void Tread_file::setnm_f(string nm_f, const char *separator)
 {
   _nm_f = nm_f;
   _separator = separator;
   if (open_file())
   {
     read_file();
-  } else {
+  }
+  else
+  {
     cout << "Gagal buka " << _nm_f << " !!!" << endl;
   }
 }
 
-void Tread_file::setseparator(const char* separator)
+void Tread_file::setseparator(const char *separator)
 {
   _separator = separator;
 }
@@ -56,7 +56,6 @@ int Tread_file::get_jml_col()
   return _jml_col;
 }
 
-
 bool Tread_file::open_file(string mode)
 {
   // _file = fopen(_nm_f.c_str(), (char *) mode.c_str());
@@ -67,26 +66,27 @@ bool Tread_file::open_file(string mode)
 bool Tread_file::open_file()
 {
 
-  _fd = open(_nm_f.c_str(), O_RDONLY, S_IRUSR | S_IWUSR);//, S_IRUSR | S_IWUSR
+  _fd = open(_nm_f.c_str(), O_RDONLY, S_IRUSR | S_IWUSR); //, S_IRUSR | S_IWUSR
 
   if (fstat(_fd, &_sb) == -1)
   {
     cout << _nm_f << endl;
     perror(" couldn't get file size. \n");
-  } else {
+  }
+  else
+  {
     memory_map_file();
   }
 
-  //printf("file size is %ld\n",_sb.st_size);
-  //close(_fd);
+  // printf("file size is %ld\n",_sb.st_size);
+  // close(_fd);
   return !(_fd == -1);
-
 }
 
 void Tread_file::memory_map_file()
 {
 
-  _file_in_memory = (char*) mmap(NULL, _sb.st_size, PROT_READ, MAP_PRIVATE, _fd, 0);//MAP_SHARED
+  _file_in_memory = (char *)mmap(NULL, _sb.st_size, PROT_READ, MAP_PRIVATE, _fd, 0); // MAP_SHARED
 
   if (_file_in_memory == MAP_FAILED)
   {
@@ -104,10 +104,9 @@ void Tread_file::close_file()
   _posisi = 0;
   _idx_posisi = 0;
   close(_fd);
-
 }
 
-vector<string> Tread_file::tokenizer(char * str, const char* separator)
+vector<string> Tread_file::tokenizer(char *str, const char *separator)
 {
 
   char *token;
@@ -119,7 +118,8 @@ vector<string> Tread_file::tokenizer(char * str, const char* separator)
     str[len - 1] = 0;
 
   token = strtok(str, separator);
-  while (token != 0) {
+  while (token != 0)
+  {
     vec.push_back(token);
     token = strtok(0, separator);
   }
@@ -129,7 +129,6 @@ vector<string> Tread_file::tokenizer(char * str, const char* separator)
 
 void Tread_file::reset_file()
 {
-
   _posisi = 0;
   _idx_posisi = 0;
   read_file();
@@ -146,7 +145,7 @@ void Tread_file::read_file()
   {
     _b_posisi = _idx_in_memory[_idx_posisi];
     int p_awal = _idx_in_memory[_idx_posisi];
-    while (( p_awal < _sb.st_size) and (_file_in_memory[p_awal] != '\n') )
+    while ((p_awal < _sb.st_size) and (_file_in_memory[p_awal] != '\n'))
     {
       char tmp = _file_in_memory[p_awal];
       strncat(str, &tmp, 1);
@@ -155,10 +154,11 @@ void Tread_file::read_file()
     char tmp = _file_in_memory[p_awal];
     strncat(str, &tmp, 1);
     _idx_posisi++;
-
-  } else {
+  }
+  else
+  {
     _b_posisi = _posisi;
-    while (( _posisi < _sb.st_size) and (_file_in_memory[_posisi] != '\n') )
+    while ((_posisi < _sb.st_size) and (_file_in_memory[_posisi] != '\n'))
     {
       char tmp = _file_in_memory[_posisi];
       strncat(str, &tmp, 1);
@@ -172,7 +172,7 @@ void Tread_file::read_file()
 
     _posisi++;
   }
-  //cout << str << endl;
+  // cout << str << endl;
 
   int len;
 
@@ -182,10 +182,8 @@ void Tread_file::read_file()
 
   _data_str = str;
   _data = tokenizer(str, _separator);
-  //cout << "Hasil Token : " << _data.size() <<endl;
+  // cout << "Hasil Token : " << _data.size() <<endl;
   _idx_col = 0;
-
-
 }
 
 void Tread_file::clear_data()
@@ -202,7 +200,6 @@ void Tread_file::clear_index()
   _index.shrink_to_fit();
 }
 
-
 bool Tread_file::is_eof()
 {
 
@@ -214,7 +211,6 @@ bool Tread_file::is_eof()
   {
     return (_posisi > _sb.st_size);
   }
-
 }
 
 vector<string> Tread_file::get_record()
@@ -231,7 +227,7 @@ void Tread_file::next_col()
 bool Tread_file::is_end_col()
 {
 
-  return  !(_idx_col < _data.size());
+  return !(_idx_col < _data.size());
 }
 
 string Tread_file::get_col_val()
@@ -251,11 +247,12 @@ string Tread_file::get_col_val(int idx_col)
   try
   {
     return _data[idx_col];
-  } catch (std::bad_alloc) {
+  }
+  catch (std::bad_alloc)
+  {
     cout << _data.size() << " " << _idx_col << endl;
     return "-1";
   }
-
 }
 
 void Tread_file::next_record()
@@ -283,7 +280,7 @@ void Tread_file::save_to_memory()
   _jml_index = _index.size();
   _ukuran_index = (((_jml_index * sizeof(int)) / pagesize) + 1) * pagesize;
 
-  _idx_in_memory = (int*) mmap(NULL, _ukuran_index, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
+  _idx_in_memory = (int *)mmap(NULL, _ukuran_index, PROT_READ | PROT_WRITE, MAP_SHARED | MAP_ANONYMOUS, -1, 0);
 
   for (int i = 0; i < _jml_index; ++i)
   {
@@ -293,7 +290,8 @@ void Tread_file::save_to_memory()
 
 void Tread_file::clear_memory()
 {
-  if (_idx_in_memory != NULL) {
+  if (_idx_in_memory != NULL)
+  {
     munmap(_idx_in_memory, _ukuran_index);
     _idx_in_memory = NULL;
     _ukuran_index = 0;
@@ -311,7 +309,6 @@ void Tread_file::goto_rec(int idx)
   {
     _posisi = idx;
   }
-  
-  read_file();
 
+  read_file();
 }

@@ -1,0 +1,3288 @@
+ Train : 
+ Init Alpha : 
+ Init G : 
+ Init rho : 
+ Init kkt : 
+ Cetak isi alpha : 
+0          0.005       0.273816       0.273816              1
+1          0.035       0.151894       0.273816              0
+2           0.02       0.359685       0.273816              0
+3           0.02       0.325214       0.273816              0
+4           0.02        0.33301       0.273816              0
+5           0.02       0.335932       0.273816              0
+6           0.02       0.283308       0.273816              0
+7           0.02       0.334818       0.273816              0
+8           0.02       0.327038       0.273816              0
+9           0.02       0.377337       0.273816              0
+10           0.02       0.353898       0.273816              0
+11           0.02        0.33378       0.273816              0
+12           0.02       0.282986       0.273816              0
+13           0.02       0.185817       0.273816              1
+14           0.02       0.279231       0.273816              0
+15           0.02       0.336984       0.273816              0
+16           0.02        0.35079       0.273816              0
+17           0.02       0.358607       0.273816              0
+18           0.02       0.367944       0.273816              0
+19           0.02       0.364817       0.273816              0
+20           0.02       0.235346       0.273816              1
+21           0.02       0.342804       0.273816              0
+22           0.02        0.33263       0.273816              0
+23           0.02       0.380195       0.273816              0
+24           0.02       0.304075       0.273816              0
+25           0.02       0.205207       0.273816              1
+26           0.02        0.21286       0.273816              1
+27           0.02       0.208604       0.273816              1
+28           0.02       0.330283       0.273816              0
+29           0.02       0.368491       0.273816              0
+30           0.02       0.345321       0.273816              0
+31           0.02       0.138359       0.273816              1
+32           0.02        0.31029       0.273816              0
+33           0.02       0.243961       0.273816              1
+34           0.02       0.319736       0.273816              0
+35           0.02       0.363392       0.273816              0
+36           0.02       0.211464       0.273816              1
+37           0.02       0.244987       0.273816              1
+38           0.02           0.02       0.273816              1
+39           0.02       0.315311       0.273816              0
+40           0.02       0.235496       0.273816              1
+41           0.02       0.203906       0.273816              1
+42           0.02       0.207574       0.273816              1
+43           0.02       0.218204       0.273816              1
+44           0.02       0.324325       0.273816              0
+45           0.02       0.355448       0.273816              0
+46           0.02       0.355491       0.273816              0
+47           0.02       0.287108       0.273816              0
+48           0.02       0.331842       0.273816              0
+49           0.02       0.357248       0.273816              0
+50              0       0.275196       0.273816              1
+51              0        0.33275       0.273816              1
+52              0       0.235607       0.273816              0
+53              0       0.293087       0.273816              1
+54              0       0.374934       0.273816              1
+55              0       0.331865       0.273816              1
+56              0       0.356225       0.273816              1
+57              0       0.274497       0.273816              1
+58              0       0.019964       0.273816              0
+59              0       0.317599       0.273816              1
+60              0       0.349773       0.273816              1
+61              0       0.359167       0.273816              1
+62              0       0.307563       0.273816              1
+63              0       0.166528       0.273816              0
+64              0       0.345375       0.273816              1
+65              0       0.372553       0.273816              1
+66              0       0.332377       0.273816              1
+67              0       0.349518       0.273816              1
+68              0       0.210045       0.273816              0
+69              0       0.323546       0.273816              1
+70              0       0.350095       0.273816              1
+71              0       0.235454       0.273816              0
+72              0       0.352926       0.273816              1
+73              0       0.329259       0.273816              1
+74              0       0.281495       0.273816              1
+75              0       0.241717       0.273816              0
+76              0      0.0979614       0.273816              0
+77              0       0.379965       0.273816              1
+78              0       0.366672       0.273816              1
+79              0       0.356844       0.273816              1
+80              0       0.235423       0.273816              0
+81              0        0.20535       0.273816              0
+82              0       0.362665       0.273816              1
+83              0       0.284053       0.273816              1
+84              0        0.15058       0.273816              0
+85              0       0.235467       0.273816              0
+86              0       0.367816       0.273816              1
+87              0       0.205454       0.273816              0
+88              0       0.298561       0.273816              1
+89              0       0.359707       0.273816              1
+90              0       0.339978       0.273816              1
+91              0       0.292711       0.273816              1
+92              0       0.301695       0.273816              1
+93              0       0.186352       0.273816              0
+94              0       0.235349       0.273816              0
+95              0        0.23451       0.273816              0
+96              0       0.326724       0.273816              1
+97              0       0.101539       0.273816              0
+98              0       0.272905       0.273816              0
+99              0       0.368236       0.273816              1
+ Mulai Optimasi : 
+ idx_b 58 idx_a 23
+ take step idx_b 58 idx_a 23
+ delta 0.180116
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 76 idx_a 9
+ take step idx_b 76 idx_a 9
+ delta 0.130712
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 97 idx_a 18
+ take step idx_b 97 idx_a 18
+ delta 0.111023
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 84 idx_a 4
+ take step idx_b 84 idx_a 4
+ delta 0.0856332
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 81 idx_a 58
+ take step idx_b 81 idx_a 58
+ delta -0.0786818
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 81 idx_a 0
+ delta 0.0415676
+1 old [0,0.005] new [0.005,0] 
+ pass !!!
+ idx_b 29 idx_a 58
+ take step idx_b 29 idx_a 58
+ delta -0.137948
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 29 idx_a 1
+ delta -0.06452
+1 old [0.02,0.035] new [0.035,0.02] 
+ pass !!!
+ idx_b 29 idx_a 58
+ take step idx_b 29 idx_a 58
+ delta -0.145381
+0 old [0.035,0.02] new [0.035,0.02] 
+ not pass !!!
+ take step idx_b 29 idx_a 50
+ delta -0.0372652
+1 old [0.035,0] new [0.015,0.02] 
+ pass !!!
+ idx_b 19 idx_a 58
+ take step idx_b 19 idx_a 58
+ delta -0.139028
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 19 idx_a 51
+ delta -0.000438012
+1 old [0.02,0] new [0.019562,0.000438012] 
+ pass !!!
+ idx_b 63 idx_a 58
+ take step idx_b 63 idx_a 58
+ delta -0.0795328
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 63 idx_a 2
+ delta 0.0536106
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 87 idx_a 58
+ take step idx_b 87 idx_a 58
+ delta -0.0810438
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 87 idx_a 3
+ delta 0.0957001
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 81 idx_a 58
+ take step idx_b 81 idx_a 58
+ delta -0.0826874
+0 old [0.005,0.02] new [0.005,0.02] 
+ not pass !!!
+ take step idx_b 81 idx_a 5
+ delta 0.0397868
+1 old [0.005,0.02] new [0.02,0.005] 
+ pass !!!
+ idx_b 68 idx_a 58
+ take step idx_b 68 idx_a 58
+ delta -0.0897269
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 68 idx_a 6
+ delta 0.0245252
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 95 idx_a 58
+ take step idx_b 95 idx_a 58
+ delta -0.0931513
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 95 idx_a 7
+ delta 0.0174274
+1 old [0,0.02] new [0.0174274,0.00257258] 
+ pass !!!
+ idx_b 48 idx_a 58
+ take step idx_b 48 idx_a 58
+ delta -0.138286
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 48 idx_a 52
+ delta -0.0442805
+1 old [0.02,0] new [0,0.02] 
+ pass !!!
+ idx_b 53 idx_a 58
+ take step idx_b 53 idx_a 58
+ delta -0.0938746
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 53 idx_a 8
+ delta 0.246913
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 51 idx_a 58
+ take step idx_b 51 idx_a 58
+ delta -0.129684
+0 old [0.000438012,0.02] new [0.000438012,0.02] 
+ not pass !!!
+ take step idx_b 51 idx_a 54
+ delta -0.0069135
+1 old [0.000438012,0] new [0,0.000438012] 
+ pass !!!
+ idx_b 28 idx_a 58
+ take step idx_b 28 idx_a 58
+ delta -0.129096
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 28 idx_a 55
+ delta -0.0274953
+1 old [0.02,0] new [0,0.02] 
+ pass !!!
+ idx_b 95 idx_a 58
+ take step idx_b 95 idx_a 58
+ delta -0.0885752
+0 old [0.0174274,0.02] new [0.0174274,0.02] 
+ not pass !!!
+ take step idx_b 95 idx_a 10
+ delta 0.0314807
+1 old [0.0174274,0.02] new [0.02,0.0174274] 
+ pass !!!
+ idx_b 80 idx_a 58
+ take step idx_b 80 idx_a 58
+ delta -0.0901511
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 80 idx_a 11
+ delta 0.0211189
+1 old [0,0.02] new [0.02,0] 
+ pass !!!
+ idx_b 6 idx_a 58
+ take step idx_b 6 idx_a 58
+ delta -0.0967046
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 6 idx_a 13
+ delta 0.00325158
+1 old [0,0.02] new [0.00325158,0.0167484] 
+ pass !!!
+ idx_b 22 idx_a 58
+ take step idx_b 22 idx_a 58
+ delta -0.127761
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 22 idx_a 56
+ delta -0.0176449
+1 old [0.02,0] new [0.0023551,0.0176449] 
+ pass !!!
+ idx_b 6 idx_a 58
+ take step idx_b 6 idx_a 58
+ delta -0.0919101
+0 old [0.00325158,0.02] new [0.00325158,0.02] 
+ not pass !!!
+ take step idx_b 6 idx_a 15
+ delta 0.0192342
+1 old [0.00325158,0.02] new [0.02,0.00325158] 
+ pass !!!
+ idx_b 13 idx_a 58
+ take step idx_b 13 idx_a 58
+ delta -0.0980758
+0 old [0.0167484,0.02] new [0.0167484,0.02] 
+ not pass !!!
+ take step idx_b 13 idx_a 12
+ delta 0.00172979
+1 old [0.0167484,0.02] new [0.0184782,0.0182702] 
+ pass !!!
+ idx_b 22 idx_a 58
+ take step idx_b 22 idx_a 58
+ delta -0.12467
+0 old [0.0023551,0.02] new [0.0023551,0.02] 
+ not pass !!!
+ take step idx_b 22 idx_a 57
+ delta -0.0187472
+1 old [0.0023551,0] new [0,0.0023551] 
+ pass !!!
+ idx_b 54 idx_a 58
+ take step idx_b 54 idx_a 58
+ delta -0.124036
+0 old [0.000438012,0.02] new [0.000438012,0.02] 
+ not pass !!!
+ take step idx_b 54 idx_a 59
+ delta -0.00441929
+1 old [0.000438012,0] new [0,0.000438012] 
+ pass !!!
+ idx_b 19 idx_a 58
+ take step idx_b 19 idx_a 58
+ delta -0.122631
+0 old [0.019562,0.02] new [0.019562,0.02] 
+ not pass !!!
+ take step idx_b 19 idx_a 60
+ delta -0.0360289
+1 old [0.019562,0] new [0,0.019562] 
+ pass !!!
+ idx_b 12 idx_a 58
+ take step idx_b 12 idx_a 58
+ delta -0.0966285
+0 old [0.0182702,0.02] new [0.0182702,0.02] 
+ not pass !!!
+ take step idx_b 12 idx_a 16
+ delta 0.0270814
+1 old [0.0182702,0.02] new [0.02,0.0182702] 
+ pass !!!
+ idx_b 13 idx_a 58
+ take step idx_b 13 idx_a 58
+ delta -0.0974221
+0 old [0.0184782,0.02] new [0.0184782,0.02] 
+ not pass !!!
+ take step idx_b 13 idx_a 17
+ delta 0.0262283
+1 old [0.0184782,0.02] new [0.02,0.0184782] 
+ pass !!!
+ idx_b 83 idx_a 58
+ take step idx_b 83 idx_a 58
+ delta -0.098196
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 83 idx_a 20
+ delta 0.00213516
+1 old [0,0.02] new [0.00213516,0.0178648] 
+ pass !!!
+ idx_b 83 idx_a 58
+ take step idx_b 83 idx_a 58
+ delta -0.0992022
+0 old [0.00213516,0.02] new [0.00213516,0.02] 
+ not pass !!!
+ take step idx_b 83 idx_a 21
+ delta 0.00835113
+1 old [0.00213516,0.02] new [0.0104863,0.0116489] 
+ pass !!!
+ idx_b 34 idx_a 58
+ take step idx_b 34 idx_a 58
+ delta -0.123661
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 34 idx_a 61
+ delta -0.013057
+1 old [0.02,0] new [0.00694298,0.013057] 
+ pass !!!
+ idx_b 83 idx_a 58
+ take step idx_b 83 idx_a 58
+ delta -0.0997273
+0 old [0.0104863,0.02] new [0.0104863,0.02] 
+ not pass !!!
+ take step idx_b 83 idx_a 24
+ delta 0.0437449
+1 old [0.0104863,0.02] new [0.02,0.0104863] 
+ pass !!!
+ idx_b 20 idx_a 58
+ take step idx_b 20 idx_a 58
+ delta -0.099704
+0 old [0.0178648,0.02] new [0.0178648,0.02] 
+ not pass !!!
+ take step idx_b 20 idx_a 25
+ delta 0.0182986
+1 old [0.0178648,0.02] new [0.02,0.0178648] 
+ pass !!!
+ idx_b 93 idx_a 58
+ take step idx_b 93 idx_a 58
+ delta -0.0997309
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 93 idx_a 30
+ delta 0.0122321
+1 old [0,0.02] new [0.0122321,0.00776789] 
+ pass !!!
+ idx_b 11 idx_a 58
+ take step idx_b 11 idx_a 58
+ delta -0.100971
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 11 idx_a 32
+ delta 0.0129065
+1 old [0,0.02] new [0.0129065,0.00709349] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.103171
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 33
+ delta 0.00362842
+1 old [0,0.02] new [0.00362842,0.0163716] 
+ pass !!!
+ idx_b 75 idx_a 58
+ take step idx_b 75 idx_a 58
+ delta -0.10252
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 35
+ delta 0.0134829
+1 old [0,0.02] new [0.0134829,0.00651708] 
+ pass !!!
+ idx_b 50 idx_a 58
+ take step idx_b 50 idx_a 58
+ delta -0.118137
+0 old [0.02,0.02] new [0.02,0.02] 
+ not pass !!!
+ take step idx_b 50 idx_a 62
+ delta -0.00979115
+1 old [0.02,0] new [0.0102088,0.00979115] 
+ pass !!!
+ idx_b 8 idx_a 58
+ take step idx_b 8 idx_a 58
+ delta -0.0993569
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 8 idx_a 26
+ delta 0.00134209
+1 old [0,0.02] new [0.00134209,0.0186579] 
+ pass !!!
+ idx_b 34 idx_a 58
+ take step idx_b 34 idx_a 58
+ delta -0.118311
+0 old [0.00694298,0.02] new [0.00694298,0.02] 
+ not pass !!!
+ take step idx_b 34 idx_a 64
+ delta -0.0132397
+1 old [0.00694298,0] new [0,0.00694298] 
+ pass !!!
+ idx_b 26 idx_a 58
+ take step idx_b 26 idx_a 58
+ delta -0.0988019
+0 old [0.0186579,0.02] new [0.0186579,0.02] 
+ not pass !!!
+ take step idx_b 26 idx_a 37
+ delta 0.0386971
+1 old [0.0186579,0.02] new [0.02,0.0186579] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.10101
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 39
+ delta 0.0126164
+1 old [0,0.02] new [0.0126164,0.00738362] 
+ pass !!!
+ idx_b 17 idx_a 58
+ take step idx_b 17 idx_a 58
+ delta -0.118113
+0 old [0.0184782,0.02] new [0.0184782,0.02] 
+ not pass !!!
+ take step idx_b 17 idx_a 66
+ delta -0.00540526
+1 old [0.0184782,0] new [0.0130729,0.00540526] 
+ pass !!!
+ idx_b 8 idx_a 58
+ take step idx_b 8 idx_a 58
+ delta -0.100516
+0 old [0.00134209,0.02] new [0.00134209,0.02] 
+ not pass !!!
+ take step idx_b 8 idx_a 40
+ delta 0.00943386
+1 old [0.00134209,0.02] new [0.010776,0.0105661] 
+ pass !!!
+ idx_b 17 idx_a 58
+ take step idx_b 17 idx_a 58
+ delta -0.117815
+0 old [0.0130729,0.02] new [0.0130729,0.02] 
+ not pass !!!
+ take step idx_b 17 idx_a 67
+ delta -0.357989
+1 old [0.0130729,0] new [0,0.0130729] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.102089
+0 old [0.0126164,0.02] new [0.0126164,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 44
+ delta 0.0123152
+1 old [0.0126164,0.02] new [0.02,0.0126164] 
+ pass !!!
+ idx_b 98 idx_a 58
+ take step idx_b 98 idx_a 58
+ delta -0.100903
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 45
+ delta 0.0137783
+1 old [0,0.02] new [0.0137783,0.00622172] 
+ pass !!!
+ idx_b 66 idx_a 58
+ take step idx_b 66 idx_a 58
+ delta -0.118154
+0 old [0.00540526,0.02] new [0.00540526,0.02] 
+ not pass !!!
+ take step idx_b 66 idx_a 69
+ delta -0.138584
+1 old [0.00540526,0] new [0,0.00540526] 
+ pass !!!
+ idx_b 50 idx_a 58
+ take step idx_b 50 idx_a 58
+ delta -0.117864
+0 old [0.0102088,0.02] new [0.0102088,0.02] 
+ not pass !!!
+ take step idx_b 50 idx_a 70
+ delta -0.0135379
+1 old [0.0102088,0] new [0,0.0102088] 
+ pass !!!
+ idx_b 8 idx_a 58
+ take step idx_b 8 idx_a 58
+ delta -0.101677
+0 old [0.010776,0.02] new [0.010776,0.02] 
+ not pass !!!
+ take step idx_b 8 idx_a 46
+ delta 0.0239673
+1 old [0.010776,0.02] new [0.02,0.010776] 
+ pass !!!
+ idx_b 16 idx_a 58
+ take step idx_b 16 idx_a 58
+ delta -0.115608
+0 old [0.0182702,0.02] new [0.0182702,0.02] 
+ not pass !!!
+ take step idx_b 16 idx_a 71
+ delta -0.0215671
+1 old [0.0182702,0] new [0,0.0182702] 
+ pass !!!
+ idx_b 11 idx_a 58
+ take step idx_b 11 idx_a 58
+ delta -0.0999241
+0 old [0.0129065,0.02] new [0.0129065,0.02] 
+ not pass !!!
+ take step idx_b 11 idx_a 43
+ delta 0.000498274
+1 old [0.0129065,0.02] new [0.0134048,0.0195017] 
+ pass !!!
+ idx_b 43 idx_a 58
+ take step idx_b 43 idx_a 58
+ delta -0.100173
+0 old [0.0195017,0.02] new [0.0195017,0.02] 
+ not pass !!!
+ take step idx_b 43 idx_a 47
+ delta 0.0207433
+1 old [0.0195017,0.02] new [0.02,0.0195017] 
+ pass !!!
+ idx_b 11 idx_a 58
+ take step idx_b 11 idx_a 58
+ delta -0.100173
+0 old [0.0134048,0.02] new [0.0134048,0.02] 
+ not pass !!!
+ take step idx_b 11 idx_a 49
+ delta 0.102379
+1 old [0.0134048,0.02] new [0.02,0.0134048] 
+ pass !!!
+ idx_b 7 idx_a 58
+ take step idx_b 7 idx_a 58
+ delta -0.100574
+0 old [0.00257258,0.02] new [0.00257258,0.02] 
+ not pass !!!
+ take step idx_b 7 idx_a 29
+ delta 0.201729
+1 old [0.00257258,0.015] new [0.0175726,0] 
+ pass !!!
+ idx_b 5 idx_a 58
+ take step idx_b 5 idx_a 58
+ delta -0.100218
+0 old [0.005,0.02] new [0.005,0.02] 
+ not pass !!!
+ take step idx_b 5 idx_a 52
+ delta 0.0127052
+1 old [0.005,0.02] new [0.0177052,0.00729481] 
+ pass !!!
+ idx_b 7 idx_a 58
+ take step idx_b 7 idx_a 58
+ delta -0.101977
+0 old [0.0175726,0.02] new [0.0175726,0.02] 
+ not pass !!!
+ take step idx_b 7 idx_a 10
+ delta 0.272003
+1 old [0.0175726,0.0174274] new [0.02,0.015] 
+ pass !!!
+ idx_b 69 idx_a 58
+ take step idx_b 69 idx_a 58
+ delta -0.113267
+0 old [0.00540526,0.02] new [0.00540526,0.02] 
+ not pass !!!
+ take step idx_b 69 idx_a 72
+ delta -0.00469726
+1 old [0.00540526,0] new [0.000707999,0.00469726] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.102538
+0 old [0.00362842,0.02] new [0.00362842,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 55
+ delta 0.000785423
+1 old [0.00362842,0.02] new [0.00441385,0.0192146] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.10293
+0 old [0.00441385,0.02] new [0.00441385,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 56
+ delta 0.00877037
+1 old [0.00441385,0.0176449] new [0.0131842,0.00887453] 
+ pass !!!
+ idx_b 55 idx_a 58
+ take step idx_b 55 idx_a 58
+ delta -0.0987982
+0 old [0.0192146,0.02] new [0.0192146,0.02] 
+ not pass !!!
+ take step idx_b 55 idx_a 15
+ delta 0.88704
+1 old [0.0192146,0.00325158] new [0.02,0.00246616] 
+ pass !!!
+ idx_b 69 idx_a 58
+ take step idx_b 69 idx_a 58
+ delta -0.115498
+0 old [0.000707999,0.02] new [0.000707999,0.02] 
+ not pass !!!
+ take step idx_b 69 idx_a 77
+ delta -0.00105794
+1 old [0.000707999,0] new [0,0.000707999] 
+ pass !!!
+ idx_b 77 idx_a 58
+ take step idx_b 77 idx_a 58
+ delta -0.1148
+0 old [0.000707999,0.02] new [0.000707999,0.02] 
+ not pass !!!
+ take step idx_b 77 idx_a 78
+ delta -0.278255
+1 old [0.000707999,0] new [0,0.000707999] 
+ pass !!!
+ idx_b 15 idx_a 58
+ take step idx_b 15 idx_a 58
+ delta -0.101036
+0 old [0.00246616,0.02] new [0.00246616,0.02] 
+ not pass !!!
+ take step idx_b 15 idx_a 57
+ delta 0.010282
+1 old [0.00246616,0.0023551] new [0.00482126,0] 
+ pass !!!
+ idx_b 59 idx_a 58
+ take step idx_b 59 idx_a 58
+ delta -0.112719
+0 old [0.000438012,0.02] new [0.000438012,0.02] 
+ not pass !!!
+ take step idx_b 59 idx_a 79
+ delta -0.00382218
+1 old [0.000438012,0] new [0,0.000438012] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.112439
+0 old [0.0195017,0.02] new [0.0195017,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 86
+ delta -0.0024571
+1 old [0.0195017,0] new [0.0170446,0.0024571] 
+ pass !!!
+ idx_b 93 idx_a 58
+ take step idx_b 93 idx_a 58
+ delta -0.102942
+0 old [0.0122321,0.02] new [0.0122321,0.02] 
+ not pass !!!
+ take step idx_b 93 idx_a 60
+ delta 0.00519474
+1 old [0.0122321,0.019562] new [0.0174268,0.0143673] 
+ pass !!!
+ idx_b 15 idx_a 58
+ take step idx_b 15 idx_a 58
+ delta -0.101047
+0 old [0.00482126,0.02] new [0.00482126,0.02] 
+ not pass !!!
+ take step idx_b 15 idx_a 13
+ delta 0.0010555
+1 old [0.00482126,0.02] new [0.00587676,0.0189445] 
+ pass !!!
+ idx_b 15 idx_a 58
+ take step idx_b 15 idx_a 58
+ delta -0.101537
+0 old [0.00587676,0.02] new [0.00587676,0.02] 
+ not pass !!!
+ take step idx_b 15 idx_a 21
+ delta 0.299206
+1 old [0.00587676,0.0116489] new [0.0175256,1.73472e-18] 
+ pass !!!
+ idx_b 13 idx_a 58
+ take step idx_b 13 idx_a 58
+ delta -0.101536
+0 old [0.0189445,0.02] new [0.0189445,0.02] 
+ not pass !!!
+ take step idx_b 13 idx_a 61
+ delta 0.00817868
+1 old [0.0189445,0.013057] new [0.02,0.0120015] 
+ pass !!!
+ idx_b 15 idx_a 58
+ take step idx_b 15 idx_a 58
+ delta -0.101119
+0 old [0.0175256,0.02] new [0.0175256,0.02] 
+ not pass !!!
+ take step idx_b 15 idx_a 24
+ delta 0.01042
+1 old [0.0175256,0.0104863] new [0.02,0.00801192] 
+ pass !!!
+ idx_b 5 idx_a 58
+ take step idx_b 5 idx_a 58
+ delta -0.103194
+0 old [0.0177052,0.02] new [0.0177052,0.02] 
+ not pass !!!
+ take step idx_b 5 idx_a 25
+ delta 0.00672194
+1 old [0.0177052,0.0178648] new [0.02,0.01557] 
+ pass !!!
+ idx_b 98 idx_a 58
+ take step idx_b 98 idx_a 58
+ delta -0.103629
+0 old [0.0137783,0.02] new [0.0137783,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 30
+ delta 0.00194492
+1 old [0.0137783,0.00776789] new [0.0157232,0.00582297] 
+ pass !!!
+ idx_b 90 idx_a 58
+ take step idx_b 90 idx_a 58
+ delta -0.102766
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 90 idx_a 32
+ delta 0.00663214
+1 old [0,0.00709349] new [0.00663214,0.000461348] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.102293
+0 old [0.0131842,0.02] new [0.0131842,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 20
+ delta 0.00030892
+1 old [0.0131842,0.02] new [0.0134931,0.0196911] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.102444
+0 old [0.0134931,0.02] new [0.0134931,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 33
+ delta 0.00950639
+1 old [0.0134931,0.0163716] new [0.02,0.00986471] 
+ pass !!!
+ idx_b 20 idx_a 58
+ take step idx_b 20 idx_a 58
+ delta -0.102499
+0 old [0.0196911,0.02] new [0.0196911,0.02] 
+ not pass !!!
+ take step idx_b 20 idx_a 35
+ delta 0.0123464
+1 old [0.0196911,0.00651708] new [0.02,0.00620816] 
+ pass !!!
+ idx_b 75 idx_a 58
+ take step idx_b 75 idx_a 58
+ delta -0.103922
+0 old [0.0134829,0.02] new [0.0134829,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 62
+ delta 0.00605169
+1 old [0.0134829,0.00979115] new [0.0195346,0.00373946] 
+ pass !!!
+ idx_b 98 idx_a 58
+ take step idx_b 98 idx_a 58
+ delta -0.102605
+0 old [0.0157232,0.02] new [0.0157232,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 64
+ delta 0.00494458
+1 old [0.0157232,0.00694298] new [0.02,0.00266617] 
+ pass !!!
+ idx_b 90 idx_a 58
+ take step idx_b 90 idx_a 58
+ delta -0.103807
+0 old [0.00663214,0.02] new [0.00663214,0.02] 
+ not pass !!!
+ take step idx_b 90 idx_a 37
+ delta 0.00266633
+1 old [0.00663214,0.0186579] new [0.00929848,0.0159916] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.104135
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 39
+ delta 0.451616
+1 old [0,0.00738362] new [0.00738362,0] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.104172
+0 old [0.00738362,0.02] new [0.00738362,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 40
+ delta 0.000305622
+1 old [0.00738362,0.0105661] new [0.00768924,0.0102605] 
+ pass !!!
+ idx_b 86 idx_a 58
+ take step idx_b 86 idx_a 58
+ delta -0.111659
+0 old [0.0024571,0.02] new [0.0024571,0.02] 
+ not pass !!!
+ take step idx_b 86 idx_a 91
+ delta -0.000601275
+1 old [0.0024571,0] new [0.00185583,0.000601275] 
+ pass !!!
+ idx_b 40 idx_a 58
+ take step idx_b 40 idx_a 58
+ delta -0.104336
+0 old [0.0102605,0.02] new [0.0102605,0.02] 
+ not pass !!!
+ take step idx_b 40 idx_a 67
+ delta 0.0058493
+1 old [0.0102605,0.0130729] new [0.0161098,0.00722365] 
+ pass !!!
+ idx_b 91 idx_a 58
+ take step idx_b 91 idx_a 58
+ delta -0.111508
+0 old [0.000601275,0.02] new [0.000601275,0.02] 
+ not pass !!!
+ take step idx_b 91 idx_a 94
+ delta -0.00572619
+1 old [0.000601275,0] new [0,0.000601275] 
+ pass !!!
+ idx_b 90 idx_a 58
+ take step idx_b 90 idx_a 58
+ delta -0.104166
+0 old [0.00929848,0.02] new [0.00929848,0.02] 
+ not pass !!!
+ take step idx_b 90 idx_a 44
+ delta 0.00575071
+1 old [0.00929848,0.0126164] new [0.0150492,0.00686567] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.102471
+0 old [0.00768924,0.02] new [0.00768924,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 85
+ delta 0.00340042
+1 old [0.00768924,0.02] new [0.0110897,0.0165996] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.103787
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 45
+ delta 0.00756791
+1 old [0,0.00622172] new [0.00622172,0] 
+ pass !!!
+ idx_b 24 idx_a 58
+ take step idx_b 24 idx_a 58
+ delta -0.111536
+0 old [0.00801192,0.02] new [0.00801192,0.02] 
+ not pass !!!
+ take step idx_b 24 idx_a 2
+ delta -0.00433733
+1 old [0.00801192,0] new [0.00367459,0.00433733] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.10389
+0 old [0.0165996,0.02] new [0.0165996,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 70
+ delta 0.00640956
+1 old [0.0165996,0.0102088] new [0.02,0.00680843] 
+ pass !!!
+ idx_b 90 idx_a 58
+ take step idx_b 90 idx_a 58
+ delta -0.104329
+0 old [0.0150492,0.02] new [0.0150492,0.02] 
+ not pass !!!
+ take step idx_b 90 idx_a 46
+ delta 0.0444517
+1 old [0.0150492,0.010776] new [0.02,0.00582514] 
+ pass !!!
+ idx_b 86 idx_a 58
+ take step idx_b 86 idx_a 58
+ delta -0.110392
+0 old [0.00185583,0.02] new [0.00185583,0.02] 
+ not pass !!!
+ take step idx_b 86 idx_a 34
+ delta -0.000186936
+1 old [0.00185583,0] new [0.00166889,0.000186936] 
+ pass !!!
+ idx_b 21 idx_a 58
+ take step idx_b 21 idx_a 58
+ delta -0.104616
+0 old [1.73472e-18,0.02] new [1.73472e-18,0.02] 
+ not pass !!!
+ take step idx_b 21 idx_a 71
+ delta 0.00269414
+1 old [1.73472e-18,0.0182702] new [0.00269414,0.0155761] 
+ pass !!!
+ idx_b 86 idx_a 58
+ take step idx_b 86 idx_a 58
+ delta -0.111231
+0 old [0.00166889,0.02] new [0.00166889,0.02] 
+ not pass !!!
+ take step idx_b 86 idx_a 16
+ delta -0.00318906
+1 old [0.00166889,0] new [0,0.00166889] 
+ pass !!!
+ idx_b 75 idx_a 58
+ take step idx_b 75 idx_a 58
+ delta -0.104774
+0 old [0.0195346,0.02] new [0.0195346,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 49
+ delta 0.00509396
+1 old [0.0195346,0.0134048] new [0.02,0.0129394] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.10491
+0 old [0.0110897,0.02] new [0.0110897,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 52
+ delta 0.000509142
+1 old [0.0110897,0.00729481] new [0.0115988,0.00678567] 
+ pass !!!
+ idx_b 40 idx_a 58
+ take step idx_b 40 idx_a 58
+ delta -0.104687
+0 old [0.0161098,0.02] new [0.0161098,0.02] 
+ not pass !!!
+ take step idx_b 40 idx_a 10
+ delta 0.00565187
+1 old [0.0161098,0.015] new [0.02,0.0111098] 
+ pass !!!
+ idx_b 21 idx_a 58
+ take step idx_b 21 idx_a 58
+ delta -0.103511
+0 old [0.00269414,0.02] new [0.00269414,0.02] 
+ not pass !!!
+ take step idx_b 21 idx_a 72
+ delta 0.160711
+1 old [0.00269414,0.00469726] new [0.00739141,0] 
+ pass !!!
+ idx_b 21 idx_a 58
+ take step idx_b 21 idx_a 58
+ delta -0.103567
+0 old [0.00739141,0.02] new [0.00739141,0.02] 
+ not pass !!!
+ take step idx_b 21 idx_a 56
+ delta 0.104719
+1 old [0.00739141,0.00887453] new [0.0162659,0] 
+ pass !!!
+ idx_b 34 idx_a 58
+ take step idx_b 34 idx_a 58
+ delta -0.110713
+0 old [0.000186936,0.02] new [0.000186936,0.02] 
+ not pass !!!
+ take step idx_b 34 idx_a 78
+ delta -0.00169
+1 old [0.000186936,0.000707999] new [0,0.000894936] 
+ pass !!!
+ idx_b 21 idx_a 58
+ take step idx_b 21 idx_a 58
+ delta -0.10385
+0 old [0.0162659,0.02] new [0.0162659,0.02] 
+ not pass !!!
+ take step idx_b 21 idx_a 79
+ delta 0.0825445
+1 old [0.0162659,0.000438012] new [0.016704,0] 
+ pass !!!
+ idx_b 21 idx_a 58
+ take step idx_b 21 idx_a 58
+ delta -0.103861
+0 old [0.016704,0.02] new [0.016704,0.02] 
+ not pass !!!
+ take step idx_b 21 idx_a 47
+ delta 0.00454295
+1 old [0.016704,0.0170446] new [0.02,0.0137486] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.104002
+0 old [0.0115988,0.02] new [0.0115988,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 60
+ delta 0.00410684
+1 old [0.0115988,0.0143673] new [0.0157056,0.0102604] 
+ pass !!!
+ idx_b 24 idx_a 58
+ take step idx_b 24 idx_a 58
+ delta -0.110555
+0 old [0.00367459,0.02] new [0.00367459,0.02] 
+ not pass !!!
+ take step idx_b 24 idx_a 29
+ delta -0.000128376
+1 old [0.00367459,0] new [0.00354622,0.000128376] 
+ pass !!!
+ idx_b 29 idx_a 58
+ take step idx_b 29 idx_a 58
+ delta -0.110492
+0 old [0.000128376,0.02] new [0.000128376,0.02] 
+ not pass !!!
+ take step idx_b 29 idx_a 93
+ delta -0.00390343
+1 old [0.000128376,0.0174268] new [0,0.0175552] 
+ pass !!!
+ idx_b 24 idx_a 58
+ take step idx_b 24 idx_a 58
+ delta -0.110518
+0 old [0.00354622,0.02] new [0.00354622,0.02] 
+ not pass !!!
+ take step idx_b 24 idx_a 61
+ delta -0.00302699
+1 old [0.00354622,0.0120015] new [0.000519229,0.0150285] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.104576
+0 old [0.00622172,0.02] new [0.00622172,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 25
+ delta 0.00837317
+1 old [0.00622172,0.01557] new [0.0145949,0.00719685] 
+ pass !!!
+ idx_b 24 idx_a 58
+ take step idx_b 24 idx_a 58
+ delta -0.111312
+0 old [0.000519229,0.02] new [0.000519229,0.02] 
+ not pass !!!
+ take step idx_b 24 idx_a 89
+ delta -0.000273094
+1 old [0.000519229,0] new [0.000246135,0.000273094] 
+ pass !!!
+ idx_b 52 idx_a 58
+ take step idx_b 52 idx_a 58
+ delta -0.103684
+0 old [0.00678567,0.02] new [0.00678567,0.02] 
+ not pass !!!
+ take step idx_b 52 idx_a 30
+ delta 0.00301809
+1 old [0.00678567,0.00582297] new [0.00980376,0.00280488] 
+ pass !!!
+ idx_b 24 idx_a 58
+ take step idx_b 24 idx_a 58
+ delta -0.111505
+0 old [0.000246135,0.02] new [0.000246135,0.02] 
+ not pass !!!
+ take step idx_b 24 idx_a 17
+ delta -0.000693128
+1 old [0.000246135,0] new [0,0.000246135] 
+ pass !!!
+ idx_b 89 idx_a 58
+ take step idx_b 89 idx_a 58
+ delta -0.11126
+0 old [0.000273094,0.02] new [0.000273094,0.02] 
+ not pass !!!
+ take step idx_b 89 idx_a 32
+ delta -0.00150174
+1 old [0.000273094,0.000461348] new [0,0.000734442] 
+ pass !!!
+ idx_b 17 idx_a 58
+ take step idx_b 17 idx_a 58
+ delta -0.110936
+0 old [0.000246135,0.02] new [0.000246135,0.02] 
+ not pass !!!
+ take step idx_b 17 idx_a 33
+ delta -0.00405312
+1 old [0.000246135,0.00986471] new [0,0.0101108] 
+ pass !!!
+ idx_b 32 idx_a 58
+ take step idx_b 32 idx_a 58
+ delta -0.110012
+0 old [0.000734442,0.02] new [0.000734442,0.02] 
+ not pass !!!
+ take step idx_b 32 idx_a 35
+ delta -0.00200485
+1 old [0.000734442,0.00620816] new [0,0.0069426] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.10965
+0 old [0.00686567,0.02] new [0.00686567,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 62
+ delta -0.00251173
+1 old [0.00686567,0.00373946] new [0.00435393,0.00625119] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.104313
+0 old [0.00722365,0.02] new [0.00722365,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 88
+ delta 0.00223997
+1 old [0.00722365,0.02] new [0.00946362,0.01776] 
+ pass !!!
+ idx_b 16 idx_a 58
+ take step idx_b 16 idx_a 58
+ delta -0.110161
+0 old [0.00166889,0.02] new [0.00166889,0.02] 
+ not pass !!!
+ take step idx_b 16 idx_a 64
+ delta -0.00853981
+1 old [0.00166889,0.00266617] new [0,0.00433506] 
+ pass !!!
+ idx_b 78 idx_a 58
+ take step idx_b 78 idx_a 58
+ delta -0.110112
+0 old [0.000894936,0.02] new [0.000894936,0.02] 
+ not pass !!!
+ take step idx_b 78 idx_a 37
+ delta -0.00464417
+1 old [0.000894936,0.0159916] new [0,0.0168865] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.104704
+0 old [0.00946362,0.02] new [0.00946362,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 98
+ delta 0.00123152
+1 old [0.00946362,0.02] new [0.0106951,0.0187685] 
+ pass !!!
+ idx_b 35 idx_a 58
+ take step idx_b 35 idx_a 58
+ delta -0.109334
+0 old [0.0069426,0.02] new [0.0069426,0.02] 
+ not pass !!!
+ take step idx_b 35 idx_a 94
+ delta -0.00431374
+1 old [0.0069426,0.000601275] new [0.00262886,0.00491502] 
+ pass !!!
+ idx_b 25 idx_a 58
+ take step idx_b 25 idx_a 58
+ delta -0.109458
+0 old [0.00719685,0.02] new [0.00719685,0.02] 
+ not pass !!!
+ take step idx_b 25 idx_a 45
+ delta -0.00259025
+1 old [0.00719685,0] new [0.00460661,0.00259025] 
+ pass !!!
+ idx_b 93 idx_a 58
+ take step idx_b 93 idx_a 58
+ delta -0.104792
+0 old [0.0175552,0.02] new [0.0175552,0.02] 
+ not pass !!!
+ take step idx_b 93 idx_a 2
+ delta 0.00313246
+1 old [0.0175552,0.00433733] new [0.02,0.00189256] 
+ pass !!!
+ idx_b 25 idx_a 58
+ take step idx_b 25 idx_a 58
+ delta -0.109347
+0 old [0.00460661,0.02] new [0.00460661,0.02] 
+ not pass !!!
+ take step idx_b 25 idx_a 70
+ delta -0.00403055
+1 old [0.00460661,0.00680843] new [0.000576056,0.010839] 
+ pass !!!
+ idx_b 35 idx_a 58
+ take step idx_b 35 idx_a 58
+ delta -0.109445
+0 old [0.00262886,0.02] new [0.00262886,0.02] 
+ not pass !!!
+ take step idx_b 35 idx_a 46
+ delta -0.0159863
+1 old [0.00262886,0.00582514] new [0,0.008454] 
+ pass !!!
+ idx_b 61 idx_a 58
+ take step idx_b 61 idx_a 58
+ delta -0.109365
+0 old [0.0150285,0.02] new [0.0150285,0.02] 
+ not pass !!!
+ take step idx_b 61 idx_a 71
+ delta -0.00534438
+1 old [0.0150285,0.0155761] new [0.0106046,0.02] 
+ pass !!!
+ idx_b 25 idx_a 58
+ take step idx_b 25 idx_a 58
+ delta -0.109116
+0 old [0.000576056,0.02] new [0.000576056,0.02] 
+ not pass !!!
+ take step idx_b 25 idx_a 86
+ delta -0.000293581
+1 old [0.000576056,0] new [0.000282475,0.000293581] 
+ pass !!!
+ idx_b 86 idx_a 58
+ take step idx_b 86 idx_a 58
+ delta -0.108984
+0 old [0.000293581,0.02] new [0.000293581,0.02] 
+ not pass !!!
+ take step idx_b 86 idx_a 49
+ delta -0.0190834
+1 old [0.000293581,0.0129394] new [0,0.013233] 
+ pass !!!
+ idx_b 25 idx_a 58
+ take step idx_b 25 idx_a 58
+ delta -0.108985
+0 old [0.000282475,0.02] new [0.000282475,0.02] 
+ not pass !!!
+ take step idx_b 25 idx_a 10
+ delta -0.00207756
+1 old [0.000282475,0.0111098] new [0,0.0113923] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.104681
+0 old [0.0106951,0.02] new [0.0106951,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 85
+ delta 0.0010816
+1 old [0.0106951,0.02] new [0.0117767,0.0189184] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.108434
+0 old [0.00435393,0.02] new [0.00435393,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 72
+ delta -0.00120238
+1 old [0.00435393,0] new [0.00315156,0.00120238] 
+ pass !!!
+ idx_b 98 idx_a 58
+ take step idx_b 98 idx_a 58
+ delta -0.104734
+0 old [0.0187685,0.02] new [0.0187685,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 75
+ delta 0.000333155
+1 old [0.0187685,0.02] new [0.0191016,0.0196668] 
+ pass !!!
+ idx_b 61 idx_a 58
+ take step idx_b 61 idx_a 58
+ delta -0.108782
+0 old [0.0106046,0.02] new [0.0106046,0.02] 
+ not pass !!!
+ take step idx_b 61 idx_a 56
+ delta -0.0116423
+1 old [0.0106046,0] new [0,0.0106046] 
+ pass !!!
+ idx_b 56 idx_a 58
+ take step idx_b 56 idx_a 58
+ delta -0.108709
+0 old [0.0106046,0.02] new [0.0106046,0.02] 
+ not pass !!!
+ take step idx_b 56 idx_a 47
+ delta -0.000994576
+1 old [0.0106046,0.0137486] new [0.00961,0.0147432] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.104663
+0 old [0.0117767,0.02] new [0.0117767,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 40
+ delta 0.00173935
+1 old [0.0117767,0.02] new [0.0135161,0.0182606] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.104364
+0 old [0.0189184,0.02] new [0.0189184,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 60
+ delta 0.00347926
+1 old [0.0189184,0.0102604] new [0.02,0.00917881] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.108318
+0 old [0.00315156,0.02] new [0.00315156,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 79
+ delta -0.000144812
+1 old [0.00315156,0] new [0.00300674,0.000144812] 
+ pass !!!
+ idx_b 98 idx_a 58
+ take step idx_b 98 idx_a 58
+ delta -0.104993
+0 old [0.0191016,0.02] new [0.0191016,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 92
+ delta 0.00273315
+1 old [0.0191016,0.0157056] new [0.02,0.0148073] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.104979
+0 old [0.01776,0.02] new [0.01776,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 0
+ delta 0.00154962
+1 old [0.01776,0.0145949] new [0.0193097,0.0130453] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.105083
+0 old [0.00433506,0.02] new [0.00433506,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 30
+ delta 0.488875
+1 old [0.00433506,0.00280488] new [0.00713994,0] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.105083
+0 old [0.00713994,0.02] new [0.00713994,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 52
+ delta 0.00117148
+1 old [0.00713994,0.00980376] new [0.00831142,0.00863228] 
+ pass !!!
+ idx_b 40 idx_a 58
+ take step idx_b 40 idx_a 58
+ delta -0.105105
+0 old [0.0182606,0.02] new [0.0182606,0.02] 
+ not pass !!!
+ take step idx_b 40 idx_a 33
+ delta 0.00200937
+1 old [0.0182606,0.0101108] new [0.02,0.00837149] 
+ pass !!!
+ idx_b 75 idx_a 58
+ take step idx_b 75 idx_a 58
+ delta -0.10451
+0 old [0.0196668,0.02] new [0.0196668,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 21
+ delta 4.19883e-05
+1 old [0.0196668,0.02] new [0.0197088,0.019958] 
+ pass !!!
+ idx_b 75 idx_a 58
+ take step idx_b 75 idx_a 58
+ delta -0.104531
+0 old [0.0197088,0.02] new [0.0197088,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 62
+ delta 0.00610798
+1 old [0.0197088,0.00625119] new [0.02,0.00596003] 
+ pass !!!
+ idx_b 21 idx_a 58
+ take step idx_b 21 idx_a 58
+ delta -0.10453
+0 old [0.019958,0.02] new [0.019958,0.02] 
+ not pass !!!
+ take step idx_b 21 idx_a 37
+ delta 0.000712543
+1 old [0.019958,0.0168865] new [0.02,0.0168445] 
+ pass !!!
+ idx_b 88 idx_a 58
+ take step idx_b 88 idx_a 58
+ delta -0.104816
+0 old [0.0193097,0.02] new [0.0193097,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 94
+ delta 0.00272913
+1 old [0.0193097,0.00491502] new [0.02,0.00422467] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.105296
+0 old [0.0130453,0.02] new [0.0130453,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 45
+ delta 0.00323451
+1 old [0.0130453,0.00259025] new [0.0156355,0] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.104393
+0 old [0.00831142,0.02] new [0.00831142,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 2
+ delta 0.0900295
+1 old [0.00831142,0.00189256] new [0.010204,0] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.109026
+0 old [0.00300674,0.02] new [0.00300674,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 78
+ delta -0.000534303
+1 old [0.00300674,0] new [0.00247244,0.000534303] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.104668
+0 old [0.010204,0.02] new [0.010204,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 93
+ delta 0.000421063
+1 old [0.010204,0.02] new [0.010625,0.0195789] 
+ pass !!!
+ idx_b 78 idx_a 58
+ take step idx_b 78 idx_a 58
+ delta -0.108959
+0 old [0.000534303,0.02] new [0.000534303,0.02] 
+ not pass !!!
+ take step idx_b 78 idx_a 70
+ delta -0.0679901
+1 old [0.000534303,0.010839] new [0,0.0113733] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.108721
+0 old [0.00247244,0.02] new [0.00247244,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 46
+ delta -0.00200343
+1 old [0.00247244,0.008454] new [0.000469009,0.0104574] 
+ pass !!!
+ idx_b 93 idx_a 58
+ take step idx_b 93 idx_a 58
+ delta -0.104707
+0 old [0.0195789,0.02] new [0.0195789,0.02] 
+ not pass !!!
+ take step idx_b 93 idx_a 71
+ delta 0.00510229
+1 old [0.0195789,0.02] new [0.02,0.0195789] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.105206
+0 old [0.0135161,0.02] new [0.0135161,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 49
+ delta 0.00872668
+1 old [0.0135161,0.013233] new [0.02,0.00674906] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.104319
+0 old [0.010625,0.02] new [0.010625,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 10
+ delta 0.387956
+1 old [0.010625,0.0113923] new [0.02,0.00201733] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.10453
+0 old [0,0.02] new [0,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 72
+ delta 0.285644
+1 old [0,0.00120238] new [0.00120238,0] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.104534
+0 old [0.00120238,0.02] new [0.00120238,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 47
+ delta 0.00311448
+1 old [0.00120238,0.0147432] new [0.00431686,0.0116287] 
+ pass !!!
+ idx_b 37 idx_a 58
+ take step idx_b 37 idx_a 58
+ delta -0.10397
+0 old [0.0168445,0.02] new [0.0168445,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 20
+ delta 0.000392058
+1 old [0.0168445,0.02] new [0.0172366,0.0196079] 
+ pass !!!
+ idx_b 37 idx_a 58
+ take step idx_b 37 idx_a 58
+ delta -0.104165
+0 old [0.0172366,0.02] new [0.0172366,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 90
+ delta 0.000289175
+1 old [0.0172366,0.02] new [0.0175258,0.0197108] 
+ pass !!!
+ idx_b 20 idx_a 58
+ take step idx_b 20 idx_a 58
+ delta -0.104128
+0 old [0.0196079,0.02] new [0.0196079,0.02] 
+ not pass !!!
+ take step idx_b 20 idx_a 56
+ delta 0.00653684
+1 old [0.0196079,0.00961] new [0.02,0.00921794] 
+ pass !!!
+ idx_b 90 idx_a 58
+ take step idx_b 90 idx_a 58
+ delta -0.104171
+0 old [0.0197108,0.02] new [0.0197108,0.02] 
+ not pass !!!
+ take step idx_b 90 idx_a 60
+ delta 0.446712
+1 old [0.0197108,0.00917881] new [0.02,0.00888964] 
+ pass !!!
+ idx_b 37 idx_a 58
+ take step idx_b 37 idx_a 58
+ delta -0.10431
+0 old [0.0175258,0.02] new [0.0175258,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 85
+ delta 0.000860029
+1 old [0.0175258,0.02] new [0.0183858,0.01914] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.10474
+0 old [0.01914,0.02] new [0.01914,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 79
+ delta 0.00533236
+1 old [0.01914,0.000144812] new [0.0192848,1.30104e-18] 
+ pass !!!
+ idx_b 37 idx_a 58
+ take step idx_b 37 idx_a 58
+ delta -0.10474
+0 old [0.0183858,0.02] new [0.0183858,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 92
+ delta 0.00155179
+1 old [0.0183858,0.0148073] new [0.0199376,0.0132555] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.104775
+0 old [0.0192848,0.02] new [0.0192848,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 52
+ delta 0.625545
+1 old [0.0192848,0.00863228] new [0.02,0.00791707] 
+ pass !!!
+ idx_b 79 idx_a 58
+ take step idx_b 79 idx_a 58
+ delta -0.108443
+0 old [1.30104e-18,0.02] new [1.30104e-18,0.02] 
+ not pass !!!
+Out 1
+ take step idx_b 0 idx_a 58
+ delta -0.10517
+0 old [0.0156355,0.02] new [0.0156355,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 33
+ delta 0.00133197
+1 old [0.0156355,0.00837149] new [0.0169675,0.00703953] 
+ pass !!!
+ take step idx_b 10 idx_a 58
+ delta -0.107812
+0 old [0.00201733,0.02] new [0.00201733,0.02] 
+ not pass !!!
+ take step idx_b 10 idx_a 32
+ delta -8.33001e-05
+1 old [0.00201733,0] new [0.00193403,8.33001e-05] 
+ pass !!!
+ take step idx_b 30 idx_a 58
+ delta -0.10556
+0 old [0.00431686,0.02] new [0.00431686,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 40
+ delta 0.000221369
+1 old [0.00431686,0.02] new [0.00453822,0.0197786] 
+ pass !!!
+ take step idx_b 32 idx_a 58
+ delta -0.107768
+0 old [8.33001e-05,0.02] new [8.33001e-05,0.02] 
+ not pass !!!
+ take step idx_b 32 idx_a 62
+ delta -2.01268
+1 old [8.33001e-05,0.00596003] new [0,0.00604333] 
+ pass !!!
+ take step idx_b 33 idx_a 58
+ delta -0.105755
+0 old [0.00703953,0.02] new [0.00703953,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 94
+ delta 0.00145346
+1 old [0.00703953,0.00422467] new [0.00849299,0.00277121] 
+ pass !!!
+ take step idx_b 37 idx_a 58
+ delta -0.105305
+0 old [0.0199376,0.02] new [0.0199376,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 70
+ delta 0.00134708
+1 old [0.0199376,0.0113733] new [0.02,0.0113109] 
+ pass !!!
+ take step idx_b 40 idx_a 58
+ delta -0.104912
+0 old [0.0197786,0.02] new [0.0197786,0.02] 
+ not pass !!!
+ take step idx_b 40 idx_a 98
+ delta 0.000383683
+1 old [0.0197786,0.02] new [0.02,0.0197786] 
+ pass !!!
+ take step idx_b 44 idx_a 58
+ delta -0.107753
+0 old [0.000469009,0.02] new [0.000469009,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 46
+ delta -0.000730491
+1 old [0.000469009,0.0104574] new [0,0.0109264] 
+ pass !!!
+ take step idx_b 46 idx_a 58
+ delta -0.107275
+0 old [0.0109264,0.02] new [0.0109264,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta -0.00202803
+1 old [0.0109264,0.0195789] new [0.0105054,0.02] 
+ pass !!!
+ take step idx_b 47 idx_a 58
+ delta -0.106975
+0 old [0.0116287,0.02] new [0.0116287,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 49
+ delta 0.00113656
+1 old [0.0116287,0.00674906] new [0.0127652,0.00561251] 
+ pass !!!
+ take step idx_b 49 idx_a 58
+ delta -0.107541
+0 old [0.00561251,0.02] new [0.00561251,0.02] 
+ not pass !!!
+ take step idx_b 49 idx_a 2
+ delta -0.00148063
+1 old [0.00561251,0] new [0.00413188,0.00148063] 
+ pass !!!
+ take step idx_b 52 idx_a 58
+ delta -0.105431
+0 old [0.00791707,0.02] new [0.00791707,0.02] 
+ not pass !!!
+ take step idx_b 52 idx_a 67
+ delta 0.0011586
+1 old [0.00791707,0.02] new [0.00907567,0.0188414] 
+ pass !!!
+ take step idx_b 56 idx_a 58
+ delta -0.107534
+0 old [0.00921794,0.02] new [0.00921794,0.02] 
+ not pass !!!
+ take step idx_b 56 idx_a 45
+ delta -0.0372915
+1 old [0.00921794,0] new [0,0.00921794] 
+ pass !!!
+ take step idx_b 60 idx_a 58
+ delta -0.106135
+0 old [0.00888964,0.02] new [0.00888964,0.02] 
+ not pass !!!
+ take step idx_b 60 idx_a 92
+ delta -0.000407419
+1 old [0.00888964,0.0132555] new [0.00848222,0.0136629] 
+ pass !!!
+ take step idx_b 62 idx_a 58
+ delta -0.107681
+0 old [0.00604333,0.02] new [0.00604333,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 61
+ delta -0.000400593
+1 old [0.00604333,0] new [0.00564274,0.000400593] 
+ pass !!!
+ take step idx_b 67 idx_a 58
+ delta -0.105746
+0 old [0.0188414,0.02] new [0.0188414,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 0
+ delta -5.82926e-05
+1 old [0.0188414,0.0169675] new [0.0187831,0.0170258] 
+ pass !!!
+ take step idx_b 70 idx_a 58
+ delta -0.106035
+0 old [0.0113109,0.02] new [0.0113109,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 10
+ delta 0.61737
+1 old [0.0113109,0.00193403] new [0.0132449,0] 
+ pass !!!
+ take step idx_b 79 idx_a 58
+ delta -0.107546
+0 old [1.30104e-18,0.02] new [1.30104e-18,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 58
+ delta -0.105748
+0 old [0.0136629,0.02] new [0.0136629,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 30
+ delta -0.000851995
+1 old [0.0136629,0.00453822] new [0.0128109,0.00539022] 
+ pass !!!
+ take step idx_b 94 idx_a 58
+ delta -0.106933
+0 old [0.00277121,0.02] new [0.00277121,0.02] 
+ not pass !!!
+ take step idx_b 94 idx_a 33
+ delta -0.000267688
+1 old [0.00277121,0.00849299] new [0.00250352,0.00876068] 
+ pass !!!
+ take step idx_b 98 idx_a 58
+ delta -0.104992
+0 old [0.0197786,0.02] new [0.0197786,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 75
+ delta 5.11973e-05
+1 old [0.0197786,0.02] new [0.0198298,0.0199488] 
+ pass !!!
+ idx_b 98 idx_a 58
+ take step idx_b 98 idx_a 58
+ delta -0.105013
+0 old [0.0198298,0.02] new [0.0198298,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 64
+ delta 0.000118245
+1 old [0.0198298,0.02] new [0.0199481,0.0198818] 
+ pass !!!
+ idx_b 79 idx_a 58
+ take step idx_b 79 idx_a 58
+ delta -0.107868
+0 old [1.30104e-18,0.02] new [1.30104e-18,0.02] 
+ not pass !!!
+Out 1
+ take step idx_b 0 idx_a 58
+ delta -0.105553
+0 old [0.0170258,0.02] new [0.0170258,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 37
+ delta 8.58823e-05
+1 old [0.0170258,0.02] new [0.0171117,0.0199141] 
+ pass !!!
+ take step idx_b 2 idx_a 58
+ delta -0.107644
+0 old [0.00148063,0.02] new [0.00148063,0.02] 
+ not pass !!!
+ take step idx_b 2 idx_a 72
+ delta -0.0141536
+1 old [0.00148063,0] new [0,0.00148063] 
+ pass !!!
+ take step idx_b 30 idx_a 58
+ delta -0.105252
+0 old [0.00539022,0.02] new [0.00539022,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 40
+ delta 1.05878e-05
+1 old [0.00539022,0.02] new [0.00540081,0.0199894] 
+ pass !!!
+ take step idx_b 33 idx_a 58
+ delta -0.106751
+0 old [0.00876068,0.02] new [0.00876068,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 46
+ delta -0.000208433
+1 old [0.00876068,0.0105054] new [0.00855224,0.0107138] 
+ pass !!!
+ take step idx_b 37 idx_a 58
+ delta -0.105485
+0 old [0.0199141,0.02] new [0.0199141,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 71
+ delta 0.000608354
+1 old [0.0199141,0.02] new [0.02,0.0199141] 
+ pass !!!
+ take step idx_b 40 idx_a 58
+ delta -0.105245
+0 old [0.0199894,0.02] new [0.0199894,0.02] 
+ not pass !!!
+ take step idx_b 40 idx_a 47
+ delta 0.00206338
+1 old [0.0199894,0.0127652] new [0.02,0.0127546] 
+ pass !!!
+ take step idx_b 45 idx_a 58
+ delta -0.107838
+0 old [0.00921794,0.02] new [0.00921794,0.02] 
+ not pass !!!
+ take step idx_b 45 idx_a 44
+ delta -0.000227357
+1 old [0.00921794,0] new [0.00899059,0.000227357] 
+ pass !!!
+ take step idx_b 46 idx_a 58
+ delta -0.106531
+0 old [0.0107138,0.02] new [0.0107138,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 49
+ delta 0.287841
+1 old [0.0107138,0.00413188] new [0.0148457,0] 
+ pass !!!
+ take step idx_b 47 idx_a 58
+ delta -0.107353
+0 old [0.0127546,0.02] new [0.0127546,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 52
+ delta -0.00168045
+1 old [0.0127546,0.00907567] new [0.0110742,0.0107561] 
+ pass !!!
+ take step idx_b 52 idx_a 58
+ delta -0.106522
+0 old [0.0107561,0.02] new [0.0107561,0.02] 
+ not pass !!!
+ take step idx_b 52 idx_a 60
+ delta 0.00011323
+1 old [0.0107561,0.00848222] new [0.0108693,0.00836899] 
+ pass !!!
+ take step idx_b 60 idx_a 58
+ delta -0.106564
+0 old [0.00836899,0.02] new [0.00836899,0.02] 
+ not pass !!!
+ take step idx_b 60 idx_a 61
+ delta 0.0327104
+1 old [0.00836899,0.000400593] new [0.00876958,0] 
+ pass !!!
+ take step idx_b 62 idx_a 58
+ delta -0.106671
+0 old [0.00564274,0.02] new [0.00564274,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 67
+ delta -0.000605454
+1 old [0.00564274,0.0187831] new [0.00503728,0.0193886] 
+ pass !!!
+ take step idx_b 64 idx_a 58
+ delta -0.105324
+0 old [0.0198818,0.02] new [0.0198818,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 93
+ delta 7.24245e-05
+1 old [0.0198818,0.02] new [0.0199542,0.0199276] 
+ pass !!!
+ take step idx_b 67 idx_a 58
+ delta -0.106394
+0 old [0.0193886,0.02] new [0.0193886,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 70
+ delta 0.000615008
+1 old [0.0193886,0.0132449] new [0.02,0.0126335] 
+ pass !!!
+ take step idx_b 70 idx_a 58
+ delta -0.10654
+0 old [0.0126335,0.02] new [0.0126335,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 92
+ delta -0.00190257
+1 old [0.0126335,0.0128109] new [0.0107309,0.0147135] 
+ pass !!!
+ take step idx_b 71 idx_a 58
+ delta -0.106858
+0 old [0.0199141,0.02] new [0.0199141,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 10
+ delta -0.000339184
+1 old [0.0199141,0] new [0.0195749,0.000339184] 
+ pass !!!
+ take step idx_b 72 idx_a 58
+ delta -0.106558
+0 old [0.00148063,0.02] new [0.00148063,0.02] 
+ not pass !!!
+ take step idx_b 72 idx_a 94
+ delta 0.00124603
+1 old [0.00148063,0.00250352] new [0.00272666,0.00125749] 
+ pass !!!
+ take step idx_b 75 idx_a 58
+ delta -0.104605
+0 old [0.0199488,0.02] new [0.0199488,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 88
+ delta 3.54087e-05
+1 old [0.0199488,0.02] new [0.0199842,0.0199646] 
+ pass !!!
+ take step idx_b 79 idx_a 58
+ delta -0.107787
+0 old [1.30104e-18,0.02] new [1.30104e-18,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 58
+ delta -0.104614
+0 old [0.0199646,0.02] new [0.0199646,0.02] 
+ not pass !!!
+ take step idx_b 88 idx_a 98
+ delta 0.00161012
+1 old [0.0199646,0.0199481] new [0.02,0.0199127] 
+ pass !!!
+ take step idx_b 92 idx_a 58
+ delta -0.105568
+0 old [0.0147135,0.02] new [0.0147135,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 0
+ delta 0.000504664
+1 old [0.0147135,0.0171117] new [0.0152181,0.016607] 
+ pass !!!
+ take step idx_b 93 idx_a 58
+ delta -0.104829
+0 old [0.0199276,0.02] new [0.0199276,0.02] 
+ not pass !!!
+ take step idx_b 93 idx_a 30
+ delta 0.000215874
+1 old [0.0199276,0.00540081] new [0.02,0.00532838] 
+ pass !!!
+ take step idx_b 94 idx_a 58
+ delta -0.107
+0 old [0.00125749,0.02] new [0.00125749,0.02] 
+ not pass !!!
+ take step idx_b 94 idx_a 33
+ delta -0.00050911
+1 old [0.00125749,0.00855224] new [0.00074838,0.00906135] 
+ pass !!!
+ take step idx_b 98 idx_a 58
+ delta -0.105203
+0 old [0.0199127,0.02] new [0.0199127,0.02] 
+ not pass !!!
+ take step idx_b 98 idx_a 37
+ delta 0.000424422
+1 old [0.0199127,0.02] new [0.02,0.0199127] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.104778
+0 old [0.0199542,0.02] new [0.0199542,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 40
+ delta 0.000537819
+1 old [0.0199542,0.02] new [0.02,0.0199542] 
+ pass !!!
+ idx_b 75 idx_a 58
+ take step idx_b 75 idx_a 58
+ delta -0.104924
+0 old [0.0199842,0.02] new [0.0199842,0.02] 
+ not pass !!!
+ take step idx_b 75 idx_a 44
+ delta 0.00393852
+1 old [0.0199842,0.000227357] new [0.02,0.000211569] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.104962
+0 old [0.00532838,0.02] new [0.00532838,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 45
+ delta 0.303821
+1 old [0.00532838,0.00899059] new [0.014319,0] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.107742
+0 old [0.000211569,0.02] new [0.000211569,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 79
+ delta -0.00013951
+1 old [0.000211569,1.30104e-18] new [7.20588e-05,0.00013951] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.105066
+0 old [0.014319,0.02] new [0.014319,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 46
+ delta 0.0158288
+1 old [0.014319,0.0148457] new [0.02,0.00916465] 
+ pass !!!
+ idx_b 40 idx_a 58
+ take step idx_b 40 idx_a 58
+ delta -0.104919
+0 old [0.0199542,0.02] new [0.0199542,0.02] 
+ not pass !!!
+ take step idx_b 40 idx_a 47
+ delta 0.00229146
+1 old [0.0199542,0.0110742] new [0.02,0.0110284] 
+ pass !!!
+ idx_b 52 idx_a 58
+ take step idx_b 52 idx_a 58
+ delta -0.105373
+0 old [0.0108693,0.02] new [0.0108693,0.02] 
+ not pass !!!
+ take step idx_b 52 idx_a 60
+ delta 0.0014191
+1 old [0.0108693,0.00876958] new [0.0122884,0.00735048] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.107688
+0 old [7.20588e-05,0.02] new [7.20588e-05,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 56
+ delta -0.0005836
+1 old [7.20588e-05,0] new [0,7.20588e-05] 
+ pass !!!
+ idx_b 62 idx_a 58
+ take step idx_b 62 idx_a 58
+ delta -0.107461
+0 old [0.00503728,0.02] new [0.00503728,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 2
+ delta -0.000311251
+1 old [0.00503728,0] new [0.00472603,0.000311251] 
+ pass !!!
+ idx_b 37 idx_a 58
+ take step idx_b 37 idx_a 58
+ delta -0.105397
+0 old [0.0199127,0.02] new [0.0199127,0.02] 
+ not pass !!!
+ take step idx_b 37 idx_a 67
+ delta 0.000131338
+1 old [0.0199127,0.02] new [0.02,0.0199127] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.105484
+0 old [0.0199127,0.02] new [0.0199127,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 70
+ delta 0.00110965
+1 old [0.0199127,0.0107309] new [0.02,0.0106435] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105593
+0 old [0.0152181,0.02] new [0.0152181,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 10
+ delta 0.00131589
+1 old [0.0152181,0.000339184] new [0.0155573,0] 
+ pass !!!
+ idx_b 62 idx_a 58
+ take step idx_b 62 idx_a 58
+ delta -0.107497
+0 old [0.00472603,0.02] new [0.00472603,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 49
+ delta -0.000785133
+1 old [0.00472603,0] new [0.0039409,0.000785133] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105372
+0 old [0.0155573,0.02] new [0.0155573,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 71
+ delta 0.00102626
+1 old [0.0155573,0.0195749] new [0.0165836,0.0185487] 
+ pass !!!
+ idx_b 52 idx_a 58
+ take step idx_b 52 idx_a 58
+ delta -0.105496
+0 old [0.0122884,0.02] new [0.0122884,0.02] 
+ not pass !!!
+ take step idx_b 52 idx_a 72
+ delta 0.00174555
+1 old [0.0122884,0.00272666] new [0.014034,0.000981111] 
+ pass !!!
+ idx_b 62 idx_a 58
+ take step idx_b 62 idx_a 58
+ delta -0.107625
+0 old [0.0039409,0.02] new [0.0039409,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 61
+ delta -0.00107698
+1 old [0.0039409,0] new [0.00286392,0.00107698] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105356
+0 old [0.0165836,0.02] new [0.0165836,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 0
+ delta 0.000391739
+1 old [0.0165836,0.016607] new [0.0169753,0.0162153] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105439
+0 old [0.0169753,0.02] new [0.0169753,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 33
+ delta 0.00229366
+1 old [0.0169753,0.00906135] new [0.019269,0.00676769] 
+ pass !!!
+ idx_b 62 idx_a 58
+ take step idx_b 62 idx_a 58
+ delta -0.107741
+0 old [0.00286392,0.02] new [0.00286392,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 94
+ delta -0.000331076
+1 old [0.00286392,0.00074838] new [0.00253284,0.00107946] 
+ pass !!!
+ idx_b 94 idx_a 58
+ take step idx_b 94 idx_a 58
+ delta -0.107581
+0 old [0.00107946,0.02] new [0.00107946,0.02] 
+ not pass !!!
+ take step idx_b 94 idx_a 45
+ delta -0.000435564
+1 old [0.00107946,0] new [0.000643892,0.000435564] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.105815
+0 old [0.0162153,0.02] new [0.0162153,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 79
+ delta 0.00168703
+1 old [0.0162153,0.00013951] new [0.0163548,0] 
+ pass !!!
+ idx_b 62 idx_a 58
+ take step idx_b 62 idx_a 58
+ delta -0.107616
+0 old [0.00253284,0.02] new [0.00253284,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 46
+ delta -0.00168782
+1 old [0.00253284,0.00916465] new [0.000845024,0.0108525] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105045
+0 old [0.019269,0.02] new [0.019269,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 85
+ delta 0.000185274
+1 old [0.019269,0.02] new [0.0194543,0.0198147] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105136
+0 old [0.0194543,0.02] new [0.0194543,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 93
+ delta 2.35569e-05
+1 old [0.0194543,0.02] new [0.0194778,0.0199764] 
+ pass !!!
+ idx_b 85 idx_a 58
+ take step idx_b 85 idx_a 58
+ delta -0.105129
+0 old [0.0198147,0.02] new [0.0198147,0.02] 
+ not pass !!!
+ take step idx_b 85 idx_a 64
+ delta 0.000580795
+1 old [0.0198147,0.02] new [0.02,0.0198147] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105149
+0 old [0.0194778,0.02] new [0.0194778,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 30
+ delta 0.000504019
+1 old [0.0194778,0.02] new [0.0199818,0.019496] 
+ pass !!!
+ idx_b 93 idx_a 58
+ take step idx_b 93 idx_a 58
+ delta -0.105214
+0 old [0.0199764,0.02] new [0.0199764,0.02] 
+ not pass !!!
+ take step idx_b 93 idx_a 47
+ delta 0.00123883
+1 old [0.0199764,0.0110284] new [0.02,0.0110048] 
+ pass !!!
+ idx_b 64 idx_a 58
+ take step idx_b 64 idx_a 58
+ delta -0.105242
+0 old [0.0198147,0.02] new [0.0198147,0.02] 
+ not pass !!!
+ take step idx_b 64 idx_a 40
+ delta 0.000999714
+1 old [0.0198147,0.02] new [0.02,0.0198147] 
+ pass !!!
+ idx_b 92 idx_a 58
+ take step idx_b 92 idx_a 58
+ delta -0.105391
+0 old [0.0199818,0.02] new [0.0199818,0.02] 
+ not pass !!!
+ take step idx_b 92 idx_a 60
+ delta 0.00125859
+1 old [0.0199818,0.00735048] new [0.02,0.00733232] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.105461
+0 old [0.019496,0.02] new [0.019496,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 56
+ delta 0.117955
+1 old [0.019496,7.20588e-05] new [0.019568,0] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.105462
+0 old [0.019568,0.02] new [0.019568,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 2
+ delta 0.0766933
+1 old [0.019568,0.000311251] new [0.0198793,0] 
+ pass !!!
+ idx_b 30 idx_a 58
+ take step idx_b 30 idx_a 58
+ delta -0.105467
+0 old [0.0198793,0.02] new [0.0198793,0.02] 
+ not pass !!!
+ take step idx_b 30 idx_a 70
+ delta 0.913483
+1 old [0.0198793,0.0106435] new [0.02,0.0105228] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.105579
+0 old [0.0163548,0.02] new [0.0163548,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 67
+ delta 0.00051149
+1 old [0.0163548,0.02] new [0.0168663,0.0194885] 
+ pass !!!
+ idx_b 45 idx_a 58
+ take step idx_b 45 idx_a 58
+ delta -0.107737
+0 old [0.000435564,0.02] new [0.000435564,0.02] 
+ not pass !!!
+ take step idx_b 45 idx_a 44
+ delta -0.000174965
+1 old [0.000435564,0] new [0.000260599,0.000174965] 
+ pass !!!
+ idx_b 45 idx_a 58
+ take step idx_b 45 idx_a 58
+ delta -0.107652
+0 old [0.000260599,0.02] new [0.000260599,0.02] 
+ not pass !!!
+ take step idx_b 45 idx_a 10
+ delta -0.876988
+1 old [0.000260599,0] new [0,0.000260599] 
+ pass !!!
+ idx_b 44 idx_a 58
+ take step idx_b 44 idx_a 58
+ delta -0.107652
+0 old [0.000174965,0.02] new [0.000174965,0.02] 
+ not pass !!!
+ take step idx_b 44 idx_a 49
+ delta -0.000305128
+1 old [0.000174965,0.000785133] new [0,0.000960098] 
+ pass !!!
+ idx_b 61 idx_a 58
+ take step idx_b 61 idx_a 58
+ delta -0.10763
+0 old [0.00107698,0.02] new [0.00107698,0.02] 
+ not pass !!!
+ take step idx_b 61 idx_a 71
+ delta -0.00133673
+1 old [0.00107698,0.0185487] new [0,0.0196257] 
+ pass !!!
+ idx_b 94 idx_a 58
+ take step idx_b 94 idx_a 58
+ delta -0.107825
+0 old [0.000643892,0.02] new [0.000643892,0.02] 
+ not pass !!!
+ take step idx_b 94 idx_a 72
+ delta -0.00134916
+1 old [0.000643892,0.000981111] new [0,0.001625] 
+ pass !!!
+ idx_b 49 idx_a 58
+ take step idx_b 49 idx_a 58
+ delta -0.107284
+0 old [0.000960098,0.02] new [0.000960098,0.02] 
+ not pass !!!
+ take step idx_b 49 idx_a 52
+ delta -0.00117995
+1 old [0.000960098,0.014034] new [0,0.0149941] 
+ pass !!!
+ idx_b 62 idx_a 58
+ take step idx_b 62 idx_a 58
+ delta -0.107288
+0 old [0.000845024,0.02] new [0.000845024,0.02] 
+ not pass !!!
+ take step idx_b 62 idx_a 33
+ delta -0.00309675
+1 old [0.000845024,0.00676769] new [0,0.00761272] 
+ pass !!!
+ idx_b 71 idx_a 58
+ take step idx_b 71 idx_a 58
+ delta -0.107154
+0 old [0.0196257,0.02] new [0.0196257,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 46
+ delta -0.00184149
+1 old [0.0196257,0.0108525] new [0.0177842,0.012694] 
+ pass !!!
+ idx_b 10 idx_a 58
+ take step idx_b 10 idx_a 58
+ delta -0.107545
+0 old [0.000260599,0.02] new [0.000260599,0.02] 
+ not pass !!!
+ take step idx_b 10 idx_a 47
+ delta -0.00102492
+1 old [0.000260599,0.0110048] new [0,0.0112654] 
+ pass !!!
+ idx_b 72 idx_a 58
+ take step idx_b 72 idx_a 58
+ delta -0.107222
+0 old [0.001625,0.02] new [0.001625,0.02] 
+ not pass !!!
+ take step idx_b 72 idx_a 40
+ delta -0.002115
+1 old [0.001625,0.0198147] new [0.00143973,0.02] 
+ pass !!!
+ idx_b 72 idx_a 58
+ take step idx_b 72 idx_a 58
+ delta -0.107154
+0 old [0.00143973,0.02] new [0.00143973,0.02] 
+ not pass !!!
+ take step idx_b 72 idx_a 60
+ delta -0.324693
+1 old [0.00143973,0.00733232] new [0,0.00877205] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.105628
+0 old [0.0168663,0.02] new [0.0168663,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 70
+ delta 0.000782679
+1 old [0.0168663,0.0105228] new [0.0176489,0.00974016] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.10678
+0 old [0.0112654,0.02] new [0.0112654,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 67
+ delta -0.0012607
+1 old [0.0112654,0.0194885] new [0.0107539,0.02] 
+ pass !!!
+ idx_b 71 idx_a 58
+ take step idx_b 71 idx_a 58
+ delta -0.106609
+0 old [0.0177842,0.02] new [0.0177842,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 52
+ delta -0.836018
+1 old [0.0177842,0.0149941] new [0.0127782,0.02] 
+ pass !!!
+ idx_b 71 idx_a 58
+ take step idx_b 71 idx_a 58
+ delta -0.106608
+0 old [0.0127782,0.02] new [0.0127782,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 33
+ delta -0.000703151
+1 old [0.0127782,0.00761272] new [0.0120751,0.00831587] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106804
+0 old [0.0107539,0.02] new [0.0107539,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 46
+ delta -0.000787439
+1 old [0.0107539,0.012694] new [0.00996649,0.0134814] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.105813
+0 old [0.0176489,0.02] new [0.0176489,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 60
+ delta 0.000711167
+1 old [0.0176489,0.00877205] new [0.0183601,0.00806088] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106528
+0 old [0.00996649,0.02] new [0.00996649,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 70
+ delta -0.000431446
+1 old [0.00996649,0.00974016] new [0.00953504,0.0101716] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.105835
+0 old [0.00831587,0.02] new [0.00831587,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 67
+ delta 3.62939e-05
+1 old [0.00831587,0.02] new [0.00835216,0.0199637] 
+ pass !!!
+ idx_b 67 idx_a 58
+ take step idx_b 67 idx_a 58
+ delta -0.105853
+0 old [0.0199637,0.02] new [0.0199637,0.02] 
+ not pass !!!
+ take step idx_b 67 idx_a 52
+ delta 0.000262797
+1 old [0.0199637,0.02] new [0.02,0.0199637] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.105854
+0 old [0.00835216,0.02] new [0.00835216,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 71
+ delta 0.000525091
+1 old [0.00835216,0.0120751] new [0.00887725,0.01155] 
+ pass !!!
+ idx_b 52 idx_a 58
+ take step idx_b 52 idx_a 58
+ delta -0.105742
+0 old [0.0199637,0.02] new [0.0199637,0.02] 
+ not pass !!!
+ take step idx_b 52 idx_a 46
+ delta 0.000658881
+1 old [0.0199637,0.0134814] new [0.02,0.0134451] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106529
+0 old [0.00953504,0.02] new [0.00953504,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 60
+ delta -0.000229892
+1 old [0.00953504,0.00806088] new [0.00930515,0.00829078] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106026
+0 old [0.00887725,0.02] new [0.00887725,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 0
+ delta 3.43735e-05
+1 old [0.00887725,0.0183601] new [0.00891162,0.0183257] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.10604
+0 old [0.00891162,0.02] new [0.00891162,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 70
+ delta 0.000306122
+1 old [0.00891162,0.0101716] new [0.00921775,0.00986548] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106541
+0 old [0.00930515,0.02] new [0.00930515,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 71
+ delta -0.000429903
+1 old [0.00930515,0.01155] new [0.00887525,0.0119799] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106026
+0 old [0.00921775,0.02] new [0.00921775,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 46
+ delta 0.000189949
+1 old [0.00921775,0.0134451] new [0.0094077,0.0132552] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106402
+0 old [0.00887525,0.02] new [0.00887525,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 60
+ delta -0.000178736
+1 old [0.00887525,0.00829078] new [0.00869651,0.00846951] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.106016
+0 old [0.0183257,0.02] new [0.0183257,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 70
+ delta 0.000231753
+1 old [0.0183257,0.00986548] new [0.0185575,0.00963373] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106351
+0 old [0.00869651,0.02] new [0.00869651,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 71
+ delta -3.67519e-05
+1 old [0.00869651,0.0119799] new [0.00865976,0.0120167] 
+ pass !!!
+ idx_b 71 idx_a 58
+ take step idx_b 71 idx_a 58
+ delta -0.106333
+0 old [0.0120167,0.02] new [0.0120167,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 46
+ delta -0.000325444
+1 old [0.0120167,0.0132552] new [0.0116912,0.0135806] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106054
+0 old [0.0094077,0.02] new [0.0094077,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 60
+ delta 0.000261779
+1 old [0.0094077,0.00846951] new [0.00966947,0.00820773] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106433
+0 old [0.00865976,0.02] new [0.00865976,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 70
+ delta -0.000316584
+1 old [0.00865976,0.00963373] new [0.00834318,0.00995031] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106061
+0 old [0.00966947,0.02] new [0.00966947,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 46
+ delta 0.000181289
+1 old [0.00966947,0.0135806] new [0.00985076,0.0133993] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106346
+0 old [0.00834318,0.02] new [0.00834318,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 0
+ delta -0.000392501
+1 old [0.00834318,0.0185575] new [0.00795068,0.01895] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106029
+0 old [0.00985076,0.02] new [0.00985076,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 71
+ delta 0.000200731
+1 old [0.00985076,0.0116912] new [0.0100515,0.0114905] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106291
+0 old [0.00795068,0.02] new [0.00795068,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 60
+ delta -5.66406e-05
+1 old [0.00795068,0.00820773] new [0.00789404,0.00826437] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106107
+0 old [0.0100515,0.02] new [0.0100515,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 70
+ delta 8.92524e-05
+1 old [0.0100515,0.00995031] new [0.0101407,0.00986106] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106298
+0 old [0.00789404,0.02] new [0.00789404,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 46
+ delta -0.00018833
+1 old [0.00789404,0.0133993] new [0.00770571,0.0135876] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106078
+0 old [0.0101407,0.02] new [0.0101407,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 0
+ delta 0.000119554
+1 old [0.0101407,0.01895] new [0.0102603,0.0188304] 
+ pass !!!
+ idx_b 60 idx_a 58
+ take step idx_b 60 idx_a 58
+ delta -0.106306
+0 old [0.00826437,0.02] new [0.00826437,0.02] 
+ not pass !!!
+ take step idx_b 60 idx_a 71
+ delta -0.000219196
+1 old [0.00826437,0.0114905] new [0.00804518,0.0117097] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106232
+0 old [0.00770571,0.02] new [0.00770571,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 70
+ delta -7.63021e-05
+1 old [0.00770571,0.00986106] new [0.0076294,0.00993736] 
+ pass !!!
+ idx_b 33 idx_a 58
+ take step idx_b 33 idx_a 58
+ delta -0.106099
+0 old [0.0102603,0.02] new [0.0102603,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 46
+ delta 6.88329e-05
+1 old [0.0102603,0.0135876] new [0.0103291,0.0135188] 
+ pass !!!
+ idx_b 60 idx_a 58
+ take step idx_b 60 idx_a 58
+ delta -0.106229
+0 old [0.00804518,0.02] new [0.00804518,0.02] 
+ not pass !!!
+ take step idx_b 60 idx_a 0
+ delta -9.02294e-05
+1 old [0.00804518,0.0188304] new [0.00795495,0.0189207] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106091
+0 old [0.0135188,0.02] new [0.0135188,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 0.000181584
+1 old [0.0135188,0.0117097] new [0.0137004,0.0115281] 
+ pass !!!
+ idx_b 60 idx_a 58
+ take step idx_b 60 idx_a 58
+ delta -0.106248
+0 old [0.00795495,0.02] new [0.00795495,0.02] 
+ not pass !!!
+ take step idx_b 60 idx_a 70
+ delta -0.163212
+1 old [0.00795495,0.00993736] new [0,0.0178923] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106235
+0 old [0.0076294,0.02] new [0.0076294,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 33
+ delta -0.000432893
+1 old [0.0076294,0.0103291] new [0.00719651,0.010762] 
+ pass !!!
+ idx_b 47 idx_a 58
+ take step idx_b 47 idx_a 58
+ delta -0.106187
+0 old [0.00719651,0.02] new [0.00719651,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 0
+ delta -8.31044e-05
+1 old [0.00719651,0.0189207] new [0.00711341,0.0190038] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106182
+0 old [0.0178923,0.02] new [0.0178923,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -5.54744e-05
+1 old [0.0178923,0.0115281] new [0.0178368,0.0115836] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106117
+0 old [0.0137004,0.02] new [0.0137004,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 33
+ delta 4.38477e-05
+1 old [0.0137004,0.010762] new [0.0137442,0.0107182] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106181
+0 old [0.0178368,0.02] new [0.0178368,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -2.0261e-05
+1 old [0.0178368,0.0190038] new [0.0178166,0.019024] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.10613
+0 old [0.0137442,0.02] new [0.0137442,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 1.59097e-05
+1 old [0.0137442,0.00711341] new [0.0137602,0.0070975] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106179
+0 old [0.0178166,0.02] new [0.0178166,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -1.29141e-05
+1 old [0.0178166,0.0115836] new [0.0178037,0.0115965] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106134
+0 old [0.0137602,0.02] new [0.0137602,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 0
+ delta 3.66585e-05
+1 old [0.0137602,0.019024] new [0.0137968,0.0189874] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106191
+0 old [0.0178037,0.02] new [0.0178037,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 33
+ delta -5.8882e-05
+1 old [0.0178037,0.0107182] new [0.0177448,0.0107771] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106124
+0 old [0.0137968,0.02] new [0.0137968,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 3.08493e-05
+1 old [0.0137968,0.0070975] new [0.0138277,0.00706665] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106176
+0 old [0.0177448,0.02] new [0.0177448,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -2.46833e-05
+1 old [0.0177448,0.0189874] new [0.0177201,0.0190121] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106128
+0 old [0.0138277,0.02] new [0.0138277,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 6.27773e-05
+1 old [0.0138277,0.0115965] new [0.0138904,0.0115337] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106185
+0 old [0.0177201,0.02] new [0.0177201,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 33
+ delta -3.42402e-05
+1 old [0.0177201,0.0107771] new [0.0176859,0.0108113] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106134
+0 old [0.0138904,0.02] new [0.0138904,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 2.24741e-05
+1 old [0.0138904,0.00706665] new [0.0139129,0.00704417] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106179
+0 old [0.0176859,0.02] new [0.0176859,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -2.16058e-05
+1 old [0.0176859,0.0190121] new [0.0176642,0.0190337] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106136
+0 old [0.0139129,0.02] new [0.0139129,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 1.87898e-05
+1 old [0.0139129,0.0115337] new [0.0139317,0.0115149] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106175
+0 old [0.0176642,0.02] new [0.0176642,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 33
+ delta -1.3481e-05
+1 old [0.0176642,0.0108113] new [0.0176508,0.0108248] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106136
+0 old [0.0139317,0.02] new [0.0139317,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 1.83891e-05
+1 old [0.0139317,0.00704417] new [0.0139501,0.00702578] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106176
+0 old [0.0176508,0.02] new [0.0176508,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -1.19302e-05
+1 old [0.0176508,0.0190337] new [0.0176388,0.0190456] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.10614
+0 old [0.0139501,0.02] new [0.0139501,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 33
+ delta 2.19602e-05
+1 old [0.0139501,0.0108248] new [0.013972,0.0108028] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106181
+0 old [0.0176388,0.02] new [0.0176388,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -4.56755e-05
+1 old [0.0176388,0.0115149] new [0.0175932,0.0115606] 
+ pass !!!
+ idx_b 0 idx_a 58
+ take step idx_b 0 idx_a 58
+ delta -0.106173
+0 old [0.0190456,0.02] new [0.0190456,0.02] 
+ not pass !!!
+ take step idx_b 0 idx_a 47
+ delta -5.09007e-05
+1 old [0.0190456,0.00702578] new [0.0189947,0.00707669] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106136
+0 old [0.013972,0.02] new [0.013972,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 33
+ delta 3.10153e-05
+1 old [0.013972,0.0108028] new [0.0140031,0.0107718] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106178
+0 old [0.0175932,0.02] new [0.0175932,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -1.85562e-05
+1 old [0.0175932,0.0115606] new [0.0175746,0.0115792] 
+ pass !!!
+ idx_b 71 idx_a 58
+ take step idx_b 71 idx_a 58
+ delta -0.106171
+0 old [0.0115792,0.02] new [0.0115792,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 47
+ delta -2.71989e-05
+1 old [0.0115792,0.00707669] new [0.011552,0.00710388] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106141
+0 old [0.0140031,0.02] new [0.0140031,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 0
+ delta 1.64056e-05
+1 old [0.0140031,0.0189947] new [0.0140195,0.0189783] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106175
+0 old [0.0175746,0.02] new [0.0175746,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 33
+ delta -1.46289e-05
+1 old [0.0175746,0.0107718] new [0.01756,0.0107864] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106142
+0 old [0.0140195,0.02] new [0.0140195,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 1.80024e-05
+1 old [0.0140195,0.00710388] new [0.0140375,0.00708588] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106176
+0 old [0.01756,0.02] new [0.01756,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -2.25854e-05
+1 old [0.01756,0.011552] new [0.0175374,0.0115745] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106144
+0 old [0.0140375,0.02] new [0.0140375,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 33
+ delta 1.66404e-05
+1 old [0.0140375,0.0107864] new [0.0140541,0.0107698] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106175
+0 old [0.0175374,0.02] new [0.0175374,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -2.73544e-05
+1 old [0.0175374,0.0189783] new [0.01751,0.0190056] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.10614
+0 old [0.0140541,0.02] new [0.0140541,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 4.17652e-05
+1 old [0.0140541,0.0115745] new [0.0140959,0.0115328] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106176
+0 old [0.01751,0.02] new [0.01751,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 47
+ delta -2.715e-05
+1 old [0.01751,0.00708588] new [0.0174829,0.00711303] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106142
+0 old [0.0140959,0.02] new [0.0140959,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 33
+ delta 2.32299e-05
+1 old [0.0140959,0.0107698] new [0.0141191,0.0107466] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106174
+0 old [0.0174829,0.02] new [0.0174829,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -1.26519e-05
+1 old [0.0174829,0.0190056] new [0.0174702,0.0190183] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106148
+0 old [0.0141191,0.02] new [0.0141191,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 0
+ delta 2.00968e-05
+1 old [0.0141191,0.0190183] new [0.0141392,0.0189982] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106177
+0 old [0.0174702,0.02] new [0.0174702,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -2.78153e-05
+1 old [0.0174702,0.0115328] new [0.0174424,0.0115606] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106149
+0 old [0.0141392,0.02] new [0.0141392,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 0
+ delta 1.14928e-05
+1 old [0.0141392,0.0189982] new [0.0141507,0.0189867] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106172
+0 old [0.0174424,0.02] new [0.0174424,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 47
+ delta -2.06982e-05
+1 old [0.0174424,0.00711303] new [0.0174217,0.00713373] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106145
+0 old [0.0141507,0.02] new [0.0141507,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 33
+ delta 1.55223e-05
+1 old [0.0141507,0.0107466] new [0.0141662,0.010731] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106168
+0 old [0.0174217,0.02] new [0.0174217,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -1.20317e-05
+1 old [0.0174217,0.0189867] new [0.0174097,0.0189987] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106147
+0 old [0.0141662,0.02] new [0.0141662,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 2.77761e-05
+1 old [0.0141662,0.0115606] new [0.014194,0.0115328] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106172
+0 old [0.0174097,0.02] new [0.0174097,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 47
+ delta -1.51842e-05
+1 old [0.0174097,0.00713373] new [0.0173945,0.00714891] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.10615
+0 old [0.014194,0.02] new [0.014194,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 0
+ delta 1.33104e-05
+1 old [0.014194,0.0189987] new [0.0142073,0.0189854] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106171
+0 old [0.0173945,0.02] new [0.0173945,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 33
+ delta -1.25446e-05
+1 old [0.0173945,0.010731] new [0.017382,0.0107436] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.10615
+0 old [0.0142073,0.02] new [0.0142073,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 1.71473e-05
+1 old [0.0142073,0.00714891] new [0.0142245,0.00713177] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106173
+0 old [0.017382,0.02] new [0.017382,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -2.0944e-05
+1 old [0.017382,0.0115328] new [0.017361,0.0115538] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106152
+0 old [0.0142245,0.02] new [0.0142245,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 1.77485e-05
+1 old [0.0142245,0.0115538] new [0.0142422,0.011536] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106171
+0 old [0.017361,0.02] new [0.017361,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 0
+ delta -1.6194e-05
+1 old [0.017361,0.0189854] new [0.0173448,0.0190016] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106151
+0 old [0.0142422,0.02] new [0.0142422,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 47
+ delta 1.06052e-05
+1 old [0.0142422,0.00713177] new [0.0142528,0.00712116] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106168
+0 old [0.0173448,0.02] new [0.0173448,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 33
+ delta -1.27779e-05
+1 old [0.0173448,0.0107436] new [0.017332,0.0107564] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.10615
+0 old [0.0142528,0.02] new [0.0142528,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 71
+ delta 1.08584e-05
+1 old [0.0142528,0.011536] new [0.0142637,0.0115251] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106165
+0 old [0.017332,0.02] new [0.017332,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 71
+ delta -1.45751e-05
+1 old [0.017332,0.0115251] new [0.0173175,0.0115397] 
+ pass !!!
+ idx_b 46 idx_a 58
+ take step idx_b 46 idx_a 58
+ delta -0.106149
+0 old [0.0142637,0.02] new [0.0142637,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 0
+ delta 1.32406e-05
+1 old [0.0142637,0.0190016] new [0.0142769,0.0189884] 
+ pass !!!
+ idx_b 70 idx_a 58
+ take step idx_b 70 idx_a 58
+ delta -0.106166
+0 old [0.0173175,0.02] new [0.0173175,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 46
+ delta -0.00015504
+1 old [0.0173175,0.0142769] new [0.0171624,0.0144319] 
+ pass !!!
+ idx_b 71 idx_a 58
+ take step idx_b 71 idx_a 58
+ delta -0.106165
+0 old [0.0115397,0.02] new [0.0115397,0.02] 
+ not pass !!!
+Out 1
+ take step idx_b 0 idx_a 58
+ delta -0.106156
+0 old [0.0189884,0.02] new [0.0189884,0.02] 
+ not pass !!!
+ take step idx_b 33 idx_a 58
+ delta -0.10616
+0 old [0.0107564,0.02] new [0.0107564,0.02] 
+ not pass !!!
+ take step idx_b 46 idx_a 58
+ delta -0.106161
+0 old [0.0144319,0.02] new [0.0144319,0.02] 
+ not pass !!!
+ take step idx_b 47 idx_a 58
+ delta -0.106159
+0 old [0.00712116,0.02] new [0.00712116,0.02] 
+ not pass !!!
+ take step idx_b 70 idx_a 58
+ delta -0.106161
+0 old [0.0171624,0.02] new [0.0171624,0.02] 
+ not pass !!!
+ take step idx_b 71 idx_a 58
+ delta -0.106165
+0 old [0.0115397,0.02] new [0.0115397,0.02] 
+ not pass !!!
+0      0.0189884       0.252277       0.252285              0
+1           0.02       0.215202       0.252285              1
+2              0       0.254842       0.252285              1
+3              0       0.264006       0.252285              1
+4              0       0.266989       0.252285              1
+5           0.02       0.244536       0.252285              1
+6           0.02       0.222199       0.252285              1
+7           0.02       0.243873       0.252285              1
+8           0.02       0.237449       0.252285              1
+9              0       0.266529       0.252285              1
+10              0       0.254198       0.252285              1
+11           0.02        0.24346       0.252285              1
+12           0.02       0.221336       0.252285              1
+13           0.02       0.243647       0.252285              1
+14           0.02        0.21765       0.252285              1
+15           0.02       0.245335       0.252285              1
+16              0       0.261408       0.252285              1
+17              0       0.264503       0.252285              1
+18              0       0.268195       0.252285              1
+19              0       0.266053       0.252285              1
+20           0.02       0.247084       0.252285              1
+21           0.02       0.247745       0.252285              1
+22              0       0.266385       0.252285              1
+23              0       0.267614       0.252285              1
+24              0       0.259819       0.252285              1
+25              0       0.257004       0.252285              1
+26           0.02       0.235413       0.252285              1
+27           0.02       0.231615       0.252285              1
+28              0        0.26642       0.252285              1
+29              0       0.261838       0.252285              1
+30           0.02       0.250052       0.252285              1
+31           0.02       0.207047       0.252285              1
+32              0       0.255818       0.252285              1
+33      0.0107564       0.252285       0.252285              0
+34              0       0.261113       0.252285              1
+35              0       0.256867       0.252285              1
+36           0.02       0.234177       0.252285              1
+37           0.02       0.249721       0.252285              1
+38           0.02       0.039964       0.252285              1
+39              0       0.258669       0.252285              1
+40           0.02       0.250659       0.252285              1
+41           0.02       0.216912       0.252285              1
+42           0.02        0.23071       0.252285              1
+43           0.02       0.240051       0.252285              1
+44              0       0.254679       0.252285              1
+45              0       0.254912       0.252285              1
+46      0.0144319       0.252286       0.252285              0
+47     0.00712116       0.252282       0.252285              0
+48              0       0.267012       0.252285              1
+49              0       0.254411       0.252285              1
+50              0       0.266908       0.252285              1
+51              0         0.2672       0.252285              1
+52           0.02       0.251541       0.252285              1
+53           0.02       0.218069       0.252285              1
+54              0       0.270908       0.252285              1
+55           0.02       0.242091       0.252285              1
+56              0       0.255035       0.252285              1
+57              0       0.261181       0.252285              1
+58           0.02       0.039964       0.252285              1
+59              0       0.259942       0.252285              1
+60              0       0.252418       0.252285              1
+61              0       0.254821       0.252285              1
+62              0       0.254241       0.252285              1
+63           0.02       0.228992       0.252285              1
+64           0.02       0.249738       0.252285              1
+65              0       0.273546       0.252285              1
+66              0       0.267156       0.252285              1
+67           0.02       0.251536       0.252285              1
+68           0.02        0.23291       0.252285              1
+69              0       0.263145       0.252285              1
+70      0.0171624       0.252286       0.252285              0
+71      0.0115397       0.252293       0.252285              0
+72              0       0.253809       0.252285              1
+73              0       0.265971       0.252285              1
+74              0       0.275831       0.252285              1
+75           0.02       0.248609       0.252285              1
+76           0.02       0.171513       0.252285              1
+77              0       0.270954       0.252285              1
+78              0       0.258368       0.252285              1
+79              0        0.25512       0.252285              1
+80           0.02       0.225822       0.252285              1
+81           0.02       0.204067       0.252285              1
+82              0       0.265389       0.252285              1
+83           0.02        0.22294       0.252285              1
+84           0.02       0.225116       0.252285              1
+85           0.02       0.248926       0.252285              1
+86              0        0.25903       0.252285              1
+87           0.02       0.218565       0.252285              1
+88           0.02       0.248916       0.252285              1
+89              0       0.264945       0.252285              1
+90           0.02        0.24706       0.252285              1
+91              0       0.260722       0.252285              1
+92           0.02       0.250789       0.252285              1
+93           0.02       0.250284       0.252285              1
+94              0        0.25383       0.252285              1
+95           0.02       0.225379       0.252285              1
+96              0       0.264764       0.252285              1
+97           0.02       0.179248       0.252285              1
+98           0.02       0.251303       0.252285              1
+99              0       0.263974       0.252285              1
+file = test_model_1.csv iterasi = 304 V = 0.5 gamma = 0.0001 jml kkt = 46 jml all sv = 52 jml alpha = 1 jml sv = 6 jml alpha sv = 0 rho = 0.252285 is optimum = No F1 = 0.632653 
+Jumlah Data: 100 Prediksi Tepat: 51 Prediksi Tidak Tepat: 49 Prediksi Failed: 0 Akurasi: 0.51 Precision: 0.51 Recall: 0.51 F1 : 0.51
+   Confusion Metrik     : 
+                         kelas        TP        FN       jml        FP        TN  accuracy    recall    precision           f1
+                        inside        51        49       100         0         0      0.51      0.51            1        0.675
+                       outside         0         0         0        49        51      0.51         0            0            0
+
+              inside   outside
+    inside        51        49
+   outside         0         0
+
+Jumlah Data: 147 Prediksi Tepat: 93 Prediksi Tidak Tepat: 54 Prediksi Failed: 0 Akurasi: 0.633 Precision: 0.633 Recall: 0.633 F1 : 0.633
+   Confusion Metrik     : 
+                         kelas        TP        FN       jml        FP        TN  accuracy    recall    precision           f1
+                        inside        49        54       103         0        44     0.633     0.476            1        0.645
+                       outside        44         0        44        54        49     0.633         1        0.449         0.62
+
+              inside   outside
+    inside        49        54
+   outside         0        44
+
