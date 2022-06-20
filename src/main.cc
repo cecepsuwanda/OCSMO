@@ -99,7 +99,7 @@ int main(int argc, char *argv[])
   for (const auto &file : directory_iterator(config.path_model + "/train"))
   {
     string str = file.path().filename();
-    if ((str == "train_model_1.csv")) // and (str != "train_model_36.csv")
+    if ((str != "train_model_36.csv")) // and (str != "train_model_36.csv")
     {
 
       Tdataframe df_train(&config);
@@ -178,9 +178,9 @@ int main(int argc, char *argv[])
       df_test.clear_memory();
       df_test.close_file();
 
-      cetak("gamma  max = %f \n", gamma_max);
-      cetak("V  max = %f \n", v_max);
-      cetak("F1 max = %f \n", f1_max);
+      // cetak("gamma  max = %f \n", gamma_max);
+      // cetak("V  max = %f \n", v_max);
+      // cetak("F1 max = %f \n", f1_max);
       // Tconf_metrix conf_metrix;
       // isi_conf_matrix(conf_metrix, label_train, hasil_train_max);
       // cetak_conf_matrix(conf_metrix);

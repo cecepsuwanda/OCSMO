@@ -14,18 +14,6 @@ Tmy_svm::~Tmy_svm()
    _alpha_sv.clear();
 }
 
-Treturn_cari_alpha Tmy_svm::cari_idx_alpha()
-{
-
-   return {false, -1, -1};
-}
-
-bool Tmy_svm::cari_idx_a_lain(int idx_b, int *idx_alpha)
-{
-
-   return false;
-}
-
 bool Tmy_svm::take_step(int idx_b, int idx_a)
 {
    bool stat = false;
@@ -68,6 +56,98 @@ bool Tmy_svm::take_step(int idx_b, int idx_a)
    return stat;
 }
 
+bool Tmy_svm::examineExample()
+{
+   int idx_b = -1;
+   int idx_a = -1;
+   bool examineAll = false;
+   bool is_pass = _my_G.cari_idx(idx_b, idx_a, _rho, _alpha, _grad, _my_kernel);
+   if (idx_a != -1)
+   {
+      // cout << " idx_b " << idx_b << " idx_a " << idx_a << endl;
+      is_pass = take_step(idx_b, idx_a);
+      if (!is_pass)
+      {
+         idx_a = _my_G.cari_idx_lain(idx_b, _rho, _my_kernel, _alpha, _grad, _my_alpha);
+         if (idx_a != -1)
+         {
+            is_pass = take_step(idx_b, idx_a);
+            if (is_pass)
+            {
+               examineAll = true;
+            }
+            else
+            {
+               cout << "Out 1" << endl;
+            }
+         }
+         else
+         {
+            cout << "Out 2" << endl;
+         }
+      }
+      else
+      {
+         examineAll = true;
+      }
+   }
+   else
+   {
+      if (idx_b != -1)
+      {
+         idx_a = _my_G.cari_idx_lain(idx_b, _rho, _my_kernel, _alpha, _grad, _my_alpha);
+         if (idx_a != -1)
+         {
+            is_pass = take_step(idx_b, idx_a);
+            if (is_pass)
+            {
+               examineAll = true;
+            }
+            else
+            {
+               cout << "Out 3" << endl;
+            }
+         }
+         else
+         {
+            cout << "Out 4" << endl;
+         }
+      }
+      else
+      {
+         cout << "Out 5" << endl;
+      }
+   }
+   return examineAll;
+}
+
+int Tmy_svm::examineExample(int idx_b)
+{
+   int tmp = 0;
+   int idx_a = _my_G.cari_idx_a(idx_b, _rho, _alpha, _grad, _my_kernel);
+   if (idx_a != -1)
+   {
+      bool is_pass = take_step(idx_b, idx_a);
+      if (!is_pass)
+      {
+         idx_a = _my_G.cari_idx_lain(idx_b, _rho, _my_kernel, _alpha, _grad, _my_alpha);
+         if (idx_a != -1)
+         {
+            is_pass = take_step(idx_b, idx_a);
+            if (is_pass)
+            {
+               tmp = 1;
+            }
+         }
+      }
+      else
+      {
+         tmp = 1;
+      }
+   }
+   return tmp;
+}
+
 Treturn_train Tmy_svm::train(Tdataframe &df)
 {
    // cout << " Train : " << endl;
@@ -83,7 +163,9 @@ Treturn_train Tmy_svm::train(Tdataframe &df)
    _my_G.set_kkt(_rho, _alpha, _grad);
 
    int max_iter = jml_data * 100;
+   int counter = min(jml_data, 1000) + 1;
    bool stop_iter = false;
+   int jml_out = 0;
 
    // cout << " Cetak isi alpha : " << endl;
    // for (int i = 0; i < jml_data; ++i)
@@ -97,48 +179,27 @@ Treturn_train Tmy_svm::train(Tdataframe &df)
    bool examineAll = true;
    while ((iter < max_iter) and !stop_iter)
    {
-      int idx_b = -1;
-      int idx_a = -1;
 
       if (examineAll)
       {
-         bool is_pass = _my_G.cari_idx(idx_b, idx_a, _rho, _alpha, _grad, _my_kernel);
-         if (idx_a != -1)
+         int i = 0;
+         bool ulangi = true;
+         while ((i < counter) and ulangi)
          {
-            // cout << " idx_b " << idx_b << " idx_a " << idx_a << endl;
-            is_pass = take_step(idx_b, idx_a);
-            if (!is_pass)
-            {
-               idx_a = _my_G.cari_idx_lain(idx_b, _rho, _my_kernel, _alpha, _grad, _my_alpha);
-               if (idx_a != -1)
-               {
-                  is_pass = take_step(idx_b, idx_a);
-               }
-               else
-               {
-                  // cout << "Out 1" << endl;
-                  examineAll = false;
-               }
-            }
+            ulangi = examineExample();
+            i = i + 1;
+            iter = iter + 1;
          }
-         else
+         if (!ulangi)
          {
-            if (idx_b != -1)
+            jml_out = jml_out + 1;
+            if (jml_out == 10)
             {
-               idx_a = _my_G.cari_idx_lain(idx_b, _rho, _my_kernel, _alpha, _grad, _my_alpha);
-               if (idx_a != -1)
-               {
-                  is_pass = take_step(idx_b, idx_a);
-               }
-               else
-               {
-                  // cout << "Out 2" << endl;
-                  examineAll = false;
-               }
+               cout << " jml out " << jml_out << endl;
+               stop_iter = true;
             }
             else
             {
-               // cout << "Out 3" << endl;
                examineAll = false;
             }
          }
@@ -149,28 +210,10 @@ Treturn_train Tmy_svm::train(Tdataframe &df)
          int jml_pass = 0;
          for (size_t i = 0; i < jml_data; i++)
          {
-            idx_a = _my_G.cari_idx_a(rand_idx[i], _rho, _alpha, _grad, _my_kernel);
-            if (idx_a != -1)
-            {
-               bool is_pass = take_step(rand_idx[i], idx_a);
-               if (!is_pass)
-               {
-                  idx_a = _my_G.cari_idx_lain(rand_idx[i], _rho, _my_kernel, _alpha, _grad, _my_alpha);
-                  if (idx_a != -1)
-                  {
-                     is_pass = take_step(rand_idx[i], idx_a);
-                     if (is_pass)
-                     {
-                        jml_pass = jml_pass + 1;
-                     }
-                  }
-               }
-               else
-               {
-                  jml_pass = jml_pass + 1;
-               }
-            }
+            jml_pass = jml_pass + examineExample(rand_idx[i]);
+            iter = iter + 1;
          }
+
          if (jml_pass > 0)
          {
             examineAll = true;
@@ -180,8 +223,6 @@ Treturn_train Tmy_svm::train(Tdataframe &df)
             stop_iter = true;
          }
       }
-
-      iter = iter + 1;
    }
 
    //_alpha.nol_kan();

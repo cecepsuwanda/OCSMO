@@ -113,7 +113,17 @@ void Tmy_G::set_kkt(Tmy_double rho, T_alpha_container alpha, T_grad_container &g
 {
   for (int i = 0; i < _jml_data; ++i)
   {
-    grad.set_kkt(i, is_kkt(i, rho, alpha, grad));
+    bool tmp = is_kkt(i, rho, alpha, grad);
+    grad.set_kkt(i, tmp);
+
+    if (!tmp)
+    {
+      grad.mv_idx(i, 0);
+    }
+    else
+    {
+      grad.mv_idx(i, 1);
+    }
   }
 }
 
@@ -308,14 +318,16 @@ int Tmy_G::max(int idx_b, Tmy_double rho, T_alpha_container alpha, T_grad_contai
   Tmy_double Fa = 0.0;
   Tmy_double Fb = 0.0;
 
+  vector<int> rand_idx = grad.get_rand_idx();
+
   for (int i = 0; i < _jml_data; ++i)
   {
     Tmy_double Ga = grad[i];
-    Tmy_double dec_Fa = grad.dec(i, rho);
-    Tmy_double obj_Fa = grad.obj(i, rho);
+    Tmy_double dec_Fa = grad.dec(rand_idx[i], rho);
+    Tmy_double obj_Fa = grad.obj(rand_idx[i], rho);
 
     callback_param var_a;
-    var_a.idx = i;
+    var_a.idx = rand_idx[i];
     var_a.dec = dec_Fa;
     var_a.obj = obj_Fa;
     var_a.grad = Ga;
@@ -337,8 +349,8 @@ int Tmy_G::max(int idx_b, Tmy_double rho, T_alpha_container alpha, T_grad_contai
       if ((abs_diff_F >= gmax))
       {
         gmax = abs_diff_F;
-        idx_max = i;
-        grad.mv_idx(i, 0);
+        idx_max = rand_idx[i];
+        grad.mv_idx(rand_idx[i], 0);
       }
     }
   }
@@ -363,14 +375,16 @@ int Tmy_G::max(int idx_b, Tmy_double rho, T_alpha_container alpha, T_grad_contai
   Tmy_double Fa = 0.0;
   Tmy_double Fb = 0.0;
 
+  vector<int> rand_idx = grad.get_rand_idx();
+
   for (int i = 0; i < _jml_data; ++i)
   {
     Tmy_double Ga = grad[i];
-    Tmy_double dec_Fa = grad.dec(i, rho);
-    Tmy_double obj_Fa = grad.obj(i, rho);
+    Tmy_double dec_Fa = grad.dec(rand_idx[i], rho);
+    Tmy_double obj_Fa = grad.obj(rand_idx[i], rho);
 
     callback_param var_a;
-    var_a.idx = i;
+    var_a.idx = rand_idx[i];
     var_a.dec = dec_Fa;
     var_a.obj = obj_Fa;
     var_a.grad = Ga;
@@ -392,8 +406,8 @@ int Tmy_G::max(int idx_b, Tmy_double rho, T_alpha_container alpha, T_grad_contai
       if ((abs_diff_F >= gmax))
       {
         gmax = abs_diff_F;
-        idx_max = i;
-        grad.mv_idx(i, 0);
+        idx_max = rand_idx[i];
+        grad.mv_idx(rand_idx[i], 0);
       }
     }
   }

@@ -27,38 +27,32 @@ struct Treturn_train
    bool is_optimum;
 };
 
-struct Treturn_cari_alpha
-{
-   bool is_pass;
-   Tmy_double idx_b;
-   Tmy_double idx_a;
-};
-
 class Tmy_svm
 {
 
 private:
-    Tconfig *_config;
+   Tconfig *_config;
 
-    T_alpha_container _alpha;
-    T_grad_container _grad;
-    
-    Tmy_alpha *_my_alpha;
-    Tmy_kernel *_my_kernel;
-    Tmy_G _my_G;
-    
-    Tmy_double _rho;
-    map<int, vector<string>> _model;
-    vector<Tmy_double> _alpha_sv;
+   T_alpha_container _alpha;
+   T_grad_container _grad;
+
+   Tmy_alpha *_my_alpha;
+   Tmy_kernel *_my_kernel;
+   Tmy_G _my_G;
+
+   Tmy_double _rho;
+   map<int, vector<string>> _model;
+   vector<Tmy_double> _alpha_sv;
+
 public:
-	Tmy_svm(Tconfig *v_config);
-	~Tmy_svm();
-	Treturn_train train(Tdataframe &df);
-	vector<string> test(Tdataframe &df);
-	Treturn_cari_alpha cari_idx_alpha();
-	bool cari_idx_a_lain(int idx_b,int *idx_alpha);
-	bool take_step(int idx_b,int idx_a);
-	
+   Tmy_svm(Tconfig *v_config);
+   ~Tmy_svm();
+   Treturn_train train(Tdataframe &df);
+   vector<string> test(Tdataframe &df);
+   bool take_step(int idx_b, int idx_a);
+
+   bool examineExample();
+   int examineExample(int idx_b);
 };
 
 #endif
